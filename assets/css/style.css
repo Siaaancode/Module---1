@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/*Color Palette*/
+/* Primary - #553629
+Secondary - #a46f51
+Hightlight - #ccbbac */
 
+
+/* CSS for custom fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 .arvo-regular {
     font-family: "Arvo", serif;
@@ -25,7 +32,27 @@
     font-style: italic;
 }
 
-body {
-    color:blue;
-    font-family: "arvo-regular", serif;
+/*Header*/
+
+.navbar {
+    background-color: #553629;
 }
+.navbar-brand,
+.nav-link {
+    color: white;
+}
+
+.btn-outline-light {
+    color: white;
+    border-color: white;
+}
+.navbar-toggler {
+    background-color: #ccbbac;
+}
+
+
+/*Main*/
+
+
+
+/*Footer*/
