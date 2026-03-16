@@ -8,6 +8,7 @@ Hightlight - #ccbbac */
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+
 .arvo-regular {
     font-family: "Arvo", serif;
     font-weight: 400;
@@ -35,24 +36,158 @@ Hightlight - #ccbbac */
 /*Header*/
 
 .navbar {
-    background-color: #553629;
+    background-color: #a46f51;
 }
+
 .navbar-brand,
 .nav-link {
     color: white;
+    font-family: 'arvo-regular';
 }
 
 .btn-outline-light {
     color: white;
     border-color: white;
 }
+
 .navbar-toggler {
     background-color: #ccbbac;
 }
 
+.logo {
+    width: 180px;
+    padding-bottom: 8px;
+}
+
+.active {
+    /*Can't change color, need to fix*/
+    color:#553629;
+}
 
 /*Main*/
 
+.hero {
+    background: url('/assets/images/hero_banner.png') no-repeat center center/cover;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
 
+.hero-text h1 {
+    margin: 50px 0 0 20px;
+    color: white;
+    width: 200px;
+    font-family: 'arvo-regular';
+    font-size: 2rem;
+}
+.hero-text p {
+    margin-left: 20px;
+    color: white;
+    width: 200px;
+    font-family: 'arvo-regular';
+    font-size: small;
+}
+
+.hero-text button {    
+    background-color: #ccbbac;
+    color: #553629;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 0 0 0 20px;
+    font-size: 13px;
+}
 
 /*Footer*/
+
+
+
+/*Media query: tablets and larger (768px and up)*/
+@media screen and (min-width: 768px) {
+    .hero {
+        height: 400px;
+    }
+    .hero-text h1 {
+        color: white;
+        width: 400px;
+        font-size: 3.5rem;
+        padding-bottom: 10px;
+        margin-top: 40px;
+    }
+    .hero-text p {
+        color: white;
+        width: 400px;
+        height: 100px;
+        font-size: 1.5rem;
+    } 
+    
+    .hero-text button {
+        font-size: 1.5rem;
+        padding: 15px 30px;
+        width: 400px;
+        margin-top: 10px;
+    }
+}
+
+/*Media query: Laptops and larger (992px and up)*/
+@media screen and (min-width: 992px) {
+    .hero {
+        height: 600px;
+    }
+    .hero-text h1 {
+        color: white;
+        width: 400px;
+        font-size: 3.5rem;
+        padding-bottom: 10px;
+        margin-top: 80px;
+    }
+    .hero-text p {
+        color: white;
+        width: 400px;
+        height: 100px;
+        font-size: 2rem;
+        margin-top: 20px;
+    } 
+    
+    .hero-text button {
+        font-size: 1.5rem;
+        padding: 15px 30px;
+        width: 400px;
+        margin-top: 100px;
+    }
+}
+/* Media query: Large screens (1200px and up) */
+@media screen and (min-width: 1200px) {
+    .hero-text h1 {
+        color: white;
+        width: 700px;
+        font-size: 4rem;
+        padding-bottom: 10px;
+        margin: 80px 0 0 40px;
+    }
+    .hero-text p {
+        color: white;
+        width: 600px;
+        height: 100px;
+        font-size: 2.5rem;
+        margin: 20px 0 0 40px;
+    } 
+    
+    .hero-text button {
+        font-size: 2rem;
+        padding: 15px 30px;
+        width: 600px;
+        margin: 150px 0 0 40px;
+    }
+}
+
+
+/* Notes / to-do */
+
+/* Phone screen sizes,
+Horizontally the button stretches too far*/
+/* Tablet screen sizes and bigger,
+Text isnt positioned well, also button not well positioned */
