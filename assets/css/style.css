@@ -100,9 +100,52 @@ Hightlight - #ccbbac */
     margin: 0 0 0 20px;
     font-size: 13px;
 }
+/* Team section */
+
+#team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 40px;
+    font-family: 'arvo-regular';
+    background-color: #a46f51;
+    color: white;
+}
+#team-section p {
+    margin-top: 20px;
+}
+
+#team-section h2 {
+    font-size: 2rem;
+}
+#team-members {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+#team-members img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#team-members p {
+    margin: 0 0 20px 0;
+}
+
 
 /*Footer*/
 
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
 
 
 /*Media query: tablets and larger (768px and up)*/
