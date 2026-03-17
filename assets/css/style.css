@@ -1,7 +1,7 @@
 /*Color Palette*/
 /* Primary - #553629
 Secondary - #a46f51
-Hightlight - #ccbbac */
+Hightlight - #E3CDBF */
 
 
 /* CSS for custom fonts*/
@@ -36,7 +36,11 @@ Hightlight - #ccbbac */
 /*Header*/
 
 .navbar {
-    background-color: #a46f51;
+    background-color: #E3CDBF;
+}
+
+.nav-item .nav-link {
+    color: #553629;
 }
 
 .navbar-brand,
@@ -47,11 +51,14 @@ Hightlight - #ccbbac */
 
 .btn-outline-light {
     color: white;
-    border-color: white;
+    border-color: #a46f51;
+    background-color: #a46f51;
 }
 
 .navbar-toggler {
-    background-color: #ccbbac;
+    border: none;
+    color: #553629;
+    margin-right: 20px;
 }
 
 .logo {
@@ -61,7 +68,7 @@ Hightlight - #ccbbac */
 
 .active {
     /*Can't change color, need to fix*/
-    color:#553629;
+    color: #553629;
 }
 
 /*Main*/
@@ -73,7 +80,7 @@ Hightlight - #ccbbac */
     height: 300px;
     display: flex;
     justify-content: flex-start;
-    
+
 }
 
 .hero-text h1 {
@@ -83,6 +90,7 @@ Hightlight - #ccbbac */
     font-family: 'arvo-regular';
     font-size: 2rem;
 }
+
 .hero-text p {
     margin-left: 20px;
     color: white;
@@ -91,8 +99,8 @@ Hightlight - #ccbbac */
     font-size: small;
 }
 
-.hero-text button {    
-    background-color: #ccbbac;
+.hero-text button {
+    background-color: #E3CDBF;
     color: #553629;
     border: none;
     border-radius: 5px;
@@ -100,6 +108,7 @@ Hightlight - #ccbbac */
     margin: 0 0 0 20px;
     font-size: 13px;
 }
+
 /* Team section */
 
 #team-section {
@@ -112,13 +121,19 @@ Hightlight - #ccbbac */
     background-color: #a46f51;
     color: white;
 }
+
 #team-section p {
     margin-top: 20px;
 }
 
 #team-section h2 {
     font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
 }
+
 #team-members {
     display: flex;
     flex-direction: row;
@@ -126,15 +141,22 @@ Hightlight - #ccbbac */
     justify-content: center;
     margin-top: 20px;
 }
+
 #team-members img {
     width: 200px;
     height: 200px;
     margin-bottom: 10px;
     object-fit: cover;
     border-radius: 50%;
+    margin: 0 30px;
 }
+
 #team-members p {
     margin: 0 0 20px 0;
+}
+
+#team-members h3 {
+    margin-top: 10px;
 }
 
 
@@ -150,9 +172,12 @@ footer {
 
 /*Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
+
+    /*Hero banner*/
     .hero {
         height: 400px;
     }
+
     .hero-text h1 {
         color: white;
         width: 400px;
@@ -160,17 +185,36 @@ footer {
         padding-bottom: 10px;
         margin-top: 40px;
     }
+
     .hero-text p {
         color: white;
         width: 400px;
         height: 100px;
         font-size: 1.5rem;
-    } 
-    
+    }
+
     .hero-text button {
         font-size: 1.5rem;
         padding: 15px 30px;
         width: 400px;
+        margin-top: 10px;
+    }
+
+    /*Team section*/
+    #team-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #team-members img {
+        display: flex;
+        flex-direction: column;
+        margin: 0 30px;
+        justify-content: center;
+    }
+
+    #team-members h3 {
         margin-top: 10px;
     }
 }
@@ -180,6 +224,7 @@ footer {
     .hero {
         height: 600px;
     }
+
     .hero-text h1 {
         color: white;
         width: 400px;
@@ -187,14 +232,15 @@ footer {
         padding-bottom: 10px;
         margin-top: 80px;
     }
+
     .hero-text p {
         color: white;
         width: 400px;
         height: 100px;
         font-size: 2rem;
         margin-top: 20px;
-    } 
-    
+    }
+
     .hero-text button {
         font-size: 1.5rem;
         padding: 15px 30px;
@@ -202,6 +248,7 @@ footer {
         margin-top: 100px;
     }
 }
+
 /* Media query: Large screens (1200px and up) */
 @media screen and (min-width: 1200px) {
     .hero-text h1 {
@@ -211,19 +258,30 @@ footer {
         padding-bottom: 10px;
         margin: 80px 0 0 40px;
     }
+
     .hero-text p {
         color: white;
         width: 600px;
         height: 100px;
         font-size: 2.5rem;
         margin: 20px 0 0 40px;
-    } 
-    
+    }
+
     .hero-text button {
         font-size: 2rem;
         padding: 15px 30px;
         width: 600px;
         margin: 150px 0 0 40px;
+    }
+
+    #team-section h2 {
+        font-size: 4rem;
+    }
+    .team-member p {
+        font-size: 1.5rem;
+    }
+    #team-text p {
+        font-size: 2rem;
     }
 }
 
