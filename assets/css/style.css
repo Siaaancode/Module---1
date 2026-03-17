@@ -53,6 +53,7 @@ Hightlight - #E3CDBF */
     color: white;
     border-color: #a46f51;
     background-color: #a46f51;
+    font-family: 'arvo-regular';
 }
 
 .navbar-toggler {
@@ -107,6 +108,7 @@ Hightlight - #E3CDBF */
     padding: 5px 5px;
     margin: 0 0 0 20px;
     font-size: 13px;
+    font-family: 'arvo-regular';
 }
 
 /* Team section */
@@ -127,7 +129,7 @@ Hightlight - #E3CDBF */
 }
 
 #team-section h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -157,6 +159,47 @@ Hightlight - #E3CDBF */
 
 #team-members h3 {
     margin-top: 10px;
+}
+
+/* Testimonials */
+#section-text {
+    width: 100%;
+}
+#testimonials-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 40px;
+    font-family: 'arvo-regular';
+    background-color: #553629;
+    color: white;
+}
+#testimonials-section h2 {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#section-text p {
+    font-size: 2rem;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.customer-review {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    padding: 20px 20px;
+    border: 2px solid #E3CDBF;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    
+}
+.customer-review p {
+    color: #E3CDBF;
 }
 
 
@@ -251,6 +294,24 @@ footer {
 
 /* Media query: Large screens (1200px and up) */
 @media screen and (min-width: 1200px) {
+    .navbar {
+        height: 130px;
+    }
+
+    .logo {
+        height: auto;
+        width: 300px;
+    }
+
+    .nav-item .nav-link {
+        font-size: 1.5rem;
+    }
+    .btn-outline-light {
+        font-size: 1rem;
+        margin-left: 10px;
+        
+    }
+
     .hero-text h1 {
         color: white;
         width: 700px;
@@ -277,11 +338,18 @@ footer {
     #team-section h2 {
         font-size: 4rem;
     }
+
     .team-member p {
         font-size: 1.5rem;
     }
-    #team-text p {
+
+    #section-text p {
         font-size: 2rem;
+    }
+    #team-members img {
+        width: 300px;
+        height: 300px;
+        margin: 0 100px;
     }
 }
 
@@ -290,5 +358,6 @@ footer {
 
 /* Phone screen sizes,
 Horizontally the button stretches too far*/
+
 /* Tablet screen sizes and bigger,
 Text isnt positioned well, also button not well positioned */
