@@ -6,32 +6,8 @@ Hightlight - #E3CDBF */
 
 /* CSS for custom fonts*/
 
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-
-.arvo-regular {
-    font-family: "Arvo", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.arvo-bold {
-    font-family: "Arvo", serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.arvo-regular-italic {
-    font-family: "Arvo", serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
-.arvo-bold-italic {
-    font-family: "Arvo", serif;
-    font-weight: 700;
-    font-style: italic;
-}
 
 /*Header*/
 
@@ -46,14 +22,14 @@ Hightlight - #E3CDBF */
 .navbar-brand,
 .nav-link {
     color: white;
-    font-family: 'arvo-regular';
+    font-family: 'playfair-display';
 }
 
 .btn-outline-light {
     color: white;
     border-color: #a46f51;
     background-color: #a46f51;
-    font-family: 'arvo-regular';
+    font-family: 'playfair-display';
 }
 
 .navbar-toggler {
@@ -88,7 +64,7 @@ Hightlight - #E3CDBF */
     margin: 50px 0 0 20px;
     color: white;
     width: 200px;
-    font-family: 'arvo-regular';
+    font-family: 'playfair-display';
     font-size: 2rem;
 }
 
@@ -96,7 +72,7 @@ Hightlight - #E3CDBF */
     margin-left: 20px;
     color: white;
     width: 200px;
-    font-family: 'arvo-regular';
+    font-family: 'playfair-display';
     font-size: small;
 }
 
@@ -108,7 +84,7 @@ Hightlight - #E3CDBF */
     padding: 5px 5px;
     margin: 0 0 0 20px;
     font-size: 13px;
-    font-family: 'arvo-regular';
+    font-family: 'playfair-display';
 }
 
 /* Team section */
@@ -119,7 +95,7 @@ Hightlight - #E3CDBF */
     justify-content: center;
     text-align: center;
     padding: 40px 40px;
-    font-family: 'arvo-regular';
+    font-family: 'playfair-display';
     background-color: #a46f51;
     color: white;
 }
@@ -171,7 +147,7 @@ Hightlight - #E3CDBF */
     justify-content: center;
     text-align: center;
     padding: 40px 40px;
-    font-family: 'arvo-regular';
+    font-family: 'playfair-display';
     background-color: #553629;
     color: white;
 }
@@ -190,8 +166,8 @@ Hightlight - #E3CDBF */
 .customer-review {
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: auto;
     padding: 20px 20px;
     border: 2px solid #E3CDBF;
     border-radius: 10px;
@@ -200,6 +176,7 @@ Hightlight - #E3CDBF */
 }
 .customer-review p {
     color: #E3CDBF;
+    font-size: 1.3rem;
 }
 
 
@@ -207,9 +184,63 @@ Hightlight - #E3CDBF */
 
 footer {
     display: flex;
+    flex-direction: space-around;
+    flex-wrap: wrap;
+}
+#contact-us {
+    display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
+    width: 100%;
+    background-color: #E3CDBF;
+    color: #553629;
+    font-family: 'playfair-display';
+}
+#contact-us h3 {
+    font-size: 2.5rem;
+    padding-top: 30px;
+}
+#contact-us p {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+#socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #E3CDBF;
+    color: #553629;
+    font-family: 'playfair-display';
+}
+#socials h3 {
+    font-size: 2.5rem;
+    padding-top: 30px;
+}
+
+#social-networks {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+#social-networks i {
+    color: #553629;
+    
+    
+}
+#copyright {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #E3CDBF;
+    padding: 20px 0 0 20px;
+    font-family: 'playfair-display';
+    font-size: 1rem; 
+    color: #553629;
 }
 
 
@@ -309,7 +340,7 @@ footer {
     .btn-outline-light {
         font-size: 1rem;
         margin-left: 10px;
-        
+        font-family: 'playfair-display';
     }
 
     .hero-text h1 {
@@ -356,8 +387,6 @@ footer {
 
 /* Notes / to-do */
 
-/* Phone screen sizes,
-Horizontally the button stretches too far*/
+/* Contact us and follow us need to be horizontal for larger screens */
 
-/* Tablet screen sizes and bigger,
-Text isnt positioned well, also button not well positioned */
+/* Re-evaluate the layout to improve the aesthetics of the page */
