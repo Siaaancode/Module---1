@@ -8,6 +8,7 @@ Hightlight - #E3CDBF */
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+/* Global styles */
 
 /*Header*/
 
@@ -15,8 +16,13 @@ Hightlight - #E3CDBF */
     background-color: #E3CDBF;
 }
 
+.active {
+    /*Can't change color, need to fix*/
+    color: #553629 !important;
+}
+
 .nav-item .nav-link {
-    color: #553629;
+    color: #a46f51;
 }
 
 .navbar-brand,
@@ -43,13 +49,7 @@ Hightlight - #E3CDBF */
     padding-bottom: 8px;
 }
 
-.active {
-    /*Can't change color, need to fix*/
-    color: #553629;
-}
-
 /*Main*/
-
 .hero {
     background: url('/assets/images/hero_banner.png') no-repeat center center/cover;
     position: relative;
@@ -137,10 +137,18 @@ Hightlight - #E3CDBF */
     margin-top: 10px;
 }
 
-/* Testimonials */
-#section-text {
+.section-text {
     width: 100%;
 }
+
+.section-text p {
+    font-size: 2rem;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Testimonials */
+
 #testimonials-section {
     display: flex;
     flex-wrap: wrap;
@@ -151,6 +159,7 @@ Hightlight - #E3CDBF */
     background-color: #553629;
     color: white;
 }
+
 #testimonials-section h2 {
     font-size: 3rem;
     display: flex;
@@ -158,11 +167,7 @@ Hightlight - #E3CDBF */
     justify-content: center;
 
 }
-#section-text p {
-    font-size: 2rem;
-    margin-top: 20px;
-    padding-bottom: 20px;
-}
+
 .customer-review {
     display: flex;
     flex-direction: column;
@@ -172,21 +177,21 @@ Hightlight - #E3CDBF */
     border: 2px solid #E3CDBF;
     border-radius: 10px;
     margin: 10px 10px 10px 10px;
-    
+
 }
+
 .customer-review p {
     color: #E3CDBF;
     font-size: 1.3rem;
 }
 
-
 /*Footer*/
 
 footer {
     display: flex;
-    flex-direction: space-around;
     flex-wrap: wrap;
 }
+
 #contact-us {
     display: flex;
     flex-direction: column;
@@ -197,10 +202,12 @@ footer {
     color: #553629;
     font-family: 'playfair-display';
 }
+
 #contact-us h3 {
     font-size: 2.5rem;
-    padding-top: 30px;
+    margin-top: 30px;
 }
+
 #contact-us p {
     display: flex;
     flex-direction: column;
@@ -217,32 +224,35 @@ footer {
     color: #553629;
     font-family: 'playfair-display';
 }
+
 #socials h3 {
     font-size: 2.5rem;
-    padding-top: 30px;
+    margin-top: 30px;
 }
 
 #social-networks {
     display: flex;
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
 }
+
 #social-networks i {
     color: #553629;
-    
-    
 }
+
 #copyright {
     display: flex;
     justify-content: center;
     width: 100%;
     background-color: #E3CDBF;
-    padding: 20px 0 0 20px;
     font-family: 'playfair-display';
-    font-size: 1rem; 
+    font-size: 1rem;
     color: #553629;
 }
 
+#copyright p {
+    margin: 10px;
+}
 
 /*Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
@@ -337,6 +347,7 @@ footer {
     .nav-item .nav-link {
         font-size: 1.5rem;
     }
+
     .btn-outline-light {
         font-size: 1rem;
         margin-left: 10px;
@@ -377,6 +388,7 @@ footer {
     #section-text p {
         font-size: 2rem;
     }
+
     #team-members img {
         width: 300px;
         height: 300px;
@@ -388,5 +400,7 @@ footer {
 /* Notes / to-do */
 
 /* Contact us and follow us need to be horizontal for larger screens */
+
+/* Fix small gap in the contact and socials section */
 
 /* Re-evaluate the layout to improve the aesthetics of the page */
