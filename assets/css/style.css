@@ -1,49 +1,41 @@
-/*Color Palette*/
-/* Primary - #553629
-Secondary - #a46f51
-Hightlight - #E3CDBF */
-
-
 /* CSS for custom fonts*/
-
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /* Global styles */
 
-/*Header*/
+/*Color Palette*/
+/* Primary - #553629
+Secondary - #642E17
+Hightlight - #E3CDBF */
 
+body {
+    font-family: 'playfair-display';
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Header*/
 .navbar {
     background-color: #E3CDBF;
 }
-
 .active {
     /*Can't change color, need to fix*/
     color: #553629 !important;
 }
-
 .nav-item .nav-link {
-    color: #a46f51;
+    color: #642E17;
 }
-
-.navbar-brand,
-.nav-link {
-    color: white;
-    font-family: 'playfair-display';
-}
-
 .btn-outline-light {
-    color: white;
-    border-color: #a46f51;
-    background-color: #a46f51;
-    font-family: 'playfair-display';
+    color: #E3CDBF;
+    border-color: #553629;
+    background-color: #553629;
 }
-
 .navbar-toggler {
     border: none;
     color: #553629;
     margin-right: 20px;
 }
-
 .logo {
     width: 180px;
     padding-bottom: 8px;
@@ -59,23 +51,18 @@ Hightlight - #E3CDBF */
     justify-content: flex-start;
 
 }
-
 .hero-text h1 {
     margin: 50px 0 0 20px;
-    color: white;
     width: 200px;
-    font-family: 'playfair-display';
     font-size: 2rem;
+    color: #E3CDBF;
 }
-
 .hero-text p {
     margin-left: 20px;
-    color: white;
     width: 200px;
-    font-family: 'playfair-display';
     font-size: small;
+    color: #E3CDBF;
 }
-
 .hero-text button {
     background-color: #E3CDBF;
     color: #553629;
@@ -84,34 +71,30 @@ Hightlight - #E3CDBF */
     padding: 5px 5px;
     margin: 0 0 0 20px;
     font-size: 13px;
-    font-family: 'playfair-display';
 }
 
-/* Team section */
 
+/* Team section */
 #team-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     padding: 40px 40px;
-    font-family: 'playfair-display';
-    background-color: #a46f51;
-    color: white;
+    background-color: #E3CDBF;
+    color: #553629;
 }
-
 #team-section p {
     margin-top: 20px;
+    font-size: 1.5rem;
 }
-
 #team-section h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
 
 }
-
 #team-members {
     display: flex;
     flex-direction: row;
@@ -119,7 +102,6 @@ Hightlight - #E3CDBF */
     justify-content: center;
     margin-top: 20px;
 }
-
 #team-members img {
     width: 200px;
     height: 200px;
@@ -128,19 +110,15 @@ Hightlight - #E3CDBF */
     border-radius: 50%;
     margin: 0 30px;
 }
-
 #team-members p {
     margin: 0 0 20px 0;
 }
-
 #team-members h3 {
     margin-top: 10px;
 }
-
 .section-text {
     width: 100%;
 }
-
 .section-text p {
     font-size: 2rem;
     margin-top: 20px;
@@ -155,19 +133,19 @@ Hightlight - #E3CDBF */
     justify-content: center;
     text-align: center;
     padding: 40px 40px;
-    font-family: 'playfair-display';
     background-color: #553629;
     color: white;
 }
-
 #testimonials-section h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
-
+#testimonials-section p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
 .customer-review {
     display: flex;
     flex-direction: column;
@@ -179,11 +157,45 @@ Hightlight - #E3CDBF */
     margin: 10px 10px 10px 10px;
 
 }
-
 .customer-review p {
-    color: #E3CDBF;
+    color: white;
     font-size: 1.3rem;
 }
+
+/* Services */
+
+.services-header h2 {
+    background-color: #E3CDBF;
+    color: #553629;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 20px 0;
+    margin: 0;
+}
+#services {
+    background-color: #E3CDBF;
+    color: #553629;
+    padding: 0 20px;
+    width: 100%;
+    
+}
+.services-section {
+    border: 2px solid #553629;
+    border-radius: 10px;
+    margin: 0 20px 20px;
+}
+.services-section h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    padding-top: 20px;
+}
+.service-item {
+    margin: 20px 20px 20px 10px;
+}
+
 
 /*Footer*/
 
@@ -191,7 +203,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
 }
-
 #contact-us {
     display: flex;
     flex-direction: column;
@@ -200,20 +211,16 @@ footer {
     width: 100%;
     background-color: #E3CDBF;
     color: #553629;
-    font-family: 'playfair-display';
 }
-
 #contact-us h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 30px;
 }
-
 #contact-us p {
     display: flex;
     flex-direction: column;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
-
 #socials {
     display: flex;
     flex-direction: column;
@@ -222,34 +229,27 @@ footer {
     width: 100%;
     background-color: #E3CDBF;
     color: #553629;
-    font-family: 'playfair-display';
 }
-
 #socials h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 30px;
 }
-
 #social-networks {
     display: flex;
     list-style-type: none;
     padding: 10px;
 }
-
 #social-networks i {
     color: #553629;
 }
-
 #copyright {
     display: flex;
     justify-content: center;
     width: 100%;
     background-color: #E3CDBF;
-    font-family: 'playfair-display';
     font-size: 1rem;
     color: #553629;
 }
-
 #copyright p {
     margin: 10px;
 }
@@ -301,6 +301,10 @@ footer {
     #team-members h3 {
         margin-top: 10px;
     }
+    #services {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 /*Media query: Laptops and larger (992px and up)*/
@@ -351,7 +355,6 @@ footer {
     .btn-outline-light {
         font-size: 1rem;
         margin-left: 10px;
-        font-family: 'playfair-display';
     }
 
     .hero-text h1 {
@@ -393,6 +396,12 @@ footer {
         width: 300px;
         height: 300px;
         margin: 0 100px;
+    }
+    #services {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
     }
 }
 

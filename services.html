@@ -25,16 +25,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="services.html">Services</a>
+                            <a class="nav-link active" aria-current="page" href="services.html">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#team-section">Our Team</a>
+                            <a class="nav-link" href="index.html#team-section">Our Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#testimonials-section">Testimonials</a>
+                            <a class="nav-link" href="index.html#testimonials-section">Testimonials</a>
                         </li>
                     </ul>
                     <button href="services.html" type="button" class="btn btn-outline-light">Book now</button>
@@ -44,25 +44,68 @@
     </header>
 
     <main>
-        <h1>Our Services</h1>
-        <p>At Lush Locks, we offer a wide range of beauty services to help
-            you look and feel your best. Our expert stylists and beauty professionals are dedicated to providing you
-            with the highest quality services in a relaxing and welcoming environment.</p>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Services</h1>
+                <p>Browse our range of beauty services and find the perfect treatment for you.</p>
+                <button href="#">Book an appointment</button>
+            </div>
+        </section>
 
-        <h2>Hair Services</h2>
-        <ul>
-            <li>Haircuts and styling</li>
-            <li>Blowouts</li>
-            <li>Coloring and highlights</li>
-            <li>Hair treatments</li>
-        </ul>
+        <section class="services-header">
+            <h2>Our Services</h2>
+            <div id="services">
 
-        <h2>Hair Treatments</h2>
-        <ul>
-            <li>Deep conditioning treatments</li>
-            <li>Scalp treatments</li>
-            <li>Repair and restoration services</li>
-        </ul>
+                <div class="services-section">
+                    <h3>Haircuts</h3>
+                    <div class="service-item">
+                        <h4>Trim --- <em>£20</em></h4>
+                        <p>Removes split ends and keeps your hair healthy while maintaining its current length.</p>
+                    </div>
+                    <div class="service-item">
+                        <h4>Basic Cut --- <em>£30</em></h4>
+                        <p>A standard haircut tailored to your style, including shaping and tidying.</p>
+                    </div>
+                    <div class="service-item">
+                        <h4>Cut & Blow Dry --- <em>£65</em></h4>
+                        <p>A full haircut followed by a professional blow dry for a smooth, styled finish.</p>
+                    </div>
+                    <div class="service-item">
+                        <h4>Fringe Cut --- <em>£10</em></h4>
+                        <p>A quick trim to shape or maintain your fringe.</p>
+                    </div>
+                </div>
+
+                <div class="services-section">
+                    <h3>Hair Treatments</h3>
+
+                    <div class="service-item">
+                        <h4>Deep Condition --- <em>£20</em></h4>
+                        <p>Nourishes and hydrates dry or damaged hair, leaving it softer and smoother.</p>
+                    </div>
+                    <div class="service-item">
+                        <h4>Moisture Boost --- <em>£35</em></h4>
+                        <p>Adds extra moisture to dry hair, helping to improve shine and manageability.</p>
+                    </div>
+                    <div class="service-item">
+                        <h4>Olaplex Treatment --- <em>£55</em></h4>
+                        <p>Repairs broken hair bonds to strengthen hair and reduce damage from colouring or heat.</p>
+                    </div>
+                    <div class="service-item">
+                        <h4>Bond Repair --- <em>£60</em></h4>
+                        <p>Helps rebuild and protect the inner structure of the hair, making it stronger and healthier.
+                        </p>
+                    </div>
+                    <div class="service-item">
+                        <h4>Scalp Repair --- <em>£60</em></h4>
+                        <p>Soothes and restores the scalp, helping to reduce dryness, irritation, or flakiness.</p>
+                    </div>
+                    <div class="service-item">
+                        <h4>Oil Massage --- <em>£65</em></h4>
+                        <p>A relaxing treatment that nourishes the scalp and promotes healthy hair growth.</p>
+                    </div>
+                </div>
+        </section>
 
         <!-- Add Book an appointment Button-->
         <button type="button" class="btn btn-outline-light">Book an appointment</button>
