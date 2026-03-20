@@ -176,7 +176,7 @@ body {
 #services {
     background-color: #E3CDBF;
     color: #553629;
-    padding: 0 20px;
+    padding: 20px;
     width: 100%;
     
 }
@@ -194,6 +194,23 @@ body {
 }
 .service-item {
     margin: 20px 20px 20px 10px;
+}
+#services-button {
+    background-color: #E3CDBF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#services-button button {
+    width: 80%;
+    padding: 15px 0;
+    font-size: 1.5rem;
+}
+.button-p {
+    padding: 10px 20px 0 20px;
+    width: 350px;
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 
@@ -301,9 +318,8 @@ footer {
     #team-members h3 {
         margin-top: 10px;
     }
-    #services {
-        display: flex;
-        flex-direction: row;
+    .button-p {
+        width: 80%;
     }
 }
 
@@ -401,8 +417,12 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        width: 100%;
     }
+    .services-section {
+        width: 50%;
+        
+    }
+
 }
 
 
