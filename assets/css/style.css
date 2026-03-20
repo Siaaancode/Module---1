@@ -28,8 +28,12 @@ body {
 }
 .btn-outline-light {
     color: #E3CDBF;
-    border-color: #553629;
     background-color: #553629;
+    border: none;
+}
+.btn:hover {
+    background-color: #553629;
+    color: #E3CDBF;
 }
 .navbar-toggler {
     border: none;
@@ -38,6 +42,7 @@ body {
 }
 .logo {
     width: 180px;
+    height: auto;
     padding-bottom: 8px;
 }
 
@@ -68,7 +73,7 @@ body {
     color: #553629;
     border: none;
     border-radius: 5px;
-    padding: 5px 5px;
+    padding: 5px 35px;
     margin: 0 0 0 20px;
     font-size: 13px;
 }
@@ -169,7 +174,7 @@ body {
     color: #553629;
     display: flex;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 20px 0;
     margin: 0;
 }
@@ -190,10 +195,11 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 1.8rem;
-    padding-top: 20px;
+    padding: 20px 10px 0 10px;
+    text-align: center;
 }
 .service-item {
-    margin: 20px 20px 20px 10px;
+    margin: 30px 30px 30px 30px;
 }
 #services-button {
     background-color: #E3CDBF;
@@ -202,15 +208,18 @@ body {
     align-items: center;
 }
 #services-button button {
+    background-color: #553629;
+    border: none;
+    color: #E3CDBF;
     width: 80%;
     padding: 15px 0;
     font-size: 1.5rem;
 }
 .button-p {
     padding: 10px 20px 0 20px;
-    width: 350px;
     font-size: 1.2rem;
     text-align: center;
+    color: #553629;
 }
 
 
@@ -318,6 +327,7 @@ footer {
     #team-members h3 {
         margin-top: 10px;
     }
+    
     .button-p {
         width: 80%;
     }
@@ -369,7 +379,7 @@ footer {
     }
 
     .btn-outline-light {
-        font-size: 1rem;
+        font-size: 1.5rem;
         margin-left: 10px;
     }
 
@@ -413,6 +423,9 @@ footer {
         height: 300px;
         margin: 0 100px;
     }
+    #testimonials-section h2 {
+        font-size: 4rem;
+    }
     #services {
         display: flex;
         flex-direction: row;
@@ -420,9 +433,17 @@ footer {
     }
     .services-section {
         width: 50%;
-        
     }
-
+    .services-header h2 {
+        font-size: 4rem;
+    }
+    #services-button button {
+        font-size: 3rem;
+        width: 75%;
+    }
+    #services-button p {
+        font-size: 1.8rem;
+    }
 }
 
 
