@@ -14,14 +14,12 @@ body {
     padding: 0;
 }
 
-
 /*Header*/
 .navbar {
     background-color: #E3CDBF;
 }
-.active {
-    /*Can't change color, need to fix*/
-    color: #553629 !important;
+.navbar .nav-link.active {
+    color: black;
 }
 .nav-item .nav-link {
     color: #642E17;
@@ -54,7 +52,7 @@ body {
     height: 300px;
     display: flex;
     justify-content: flex-start;
-
+    color: #E3CDBF;
 }
 .hero-text h1 {
     margin: 50px 0 0 20px;
@@ -78,7 +76,6 @@ body {
     font-size: 13px;
 }
 
-
 /* Team section */
 #team-section {
     display: flex;
@@ -98,14 +95,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 #team-members {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
 }
 #team-members img {
     width: 200px;
@@ -113,6 +108,7 @@ body {
     margin-bottom: 10px;
     object-fit: cover;
     border-radius: 50%;
+    border: 5px solid #553629;
     margin: 0 30px;
 }
 #team-members p {
@@ -127,11 +123,9 @@ body {
 .section-text p {
     font-size: 2rem;
     margin-top: 20px;
-    padding-bottom: 20px;
 }
 
 /* Testimonials */
-
 #testimonials-section {
     display: flex;
     flex-wrap: wrap;
@@ -143,9 +137,7 @@ body {
 }
 #testimonials-section h2 {
     font-size: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    text-align: center;
 }
 #testimonials-section p {
     font-size: 1.5rem;
@@ -159,8 +151,7 @@ body {
     padding: 20px 20px;
     border: 2px solid #E3CDBF;
     border-radius: 10px;
-    margin: 10px 10px 10px 10px;
-
+    margin: 10px;
 }
 .customer-review p {
     color: white;
@@ -168,7 +159,6 @@ body {
 }
 
 /* Services */
-
 .services-header h2 {
     background-color: #E3CDBF;
     color: #553629;
@@ -181,9 +171,7 @@ body {
 #services {
     background-color: #E3CDBF;
     color: #553629;
-    padding: 20px;
-    width: 100%;
-    
+    padding: 20px; 
 }
 .services-section {
     border: 2px solid #553629;
@@ -199,7 +187,7 @@ body {
     text-align: center;
 }
 .service-item {
-    margin: 30px 30px 30px 30px;
+    margin: 30px;
 }
 #services-button {
     background-color: #E3CDBF;
@@ -222,9 +210,7 @@ body {
     color: #553629;
 }
 
-
 /*Footer*/
-
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -287,22 +273,18 @@ footer {
     .hero {
         height: 400px;
     }
-
     .hero-text h1 {
-        color: white;
         width: 400px;
         font-size: 3.5rem;
         padding-bottom: 10px;
         margin-top: 40px;
     }
-
     .hero-text p {
         color: white;
         width: 400px;
         height: 100px;
         font-size: 1.5rem;
     }
-
     .hero-text button {
         font-size: 1.5rem;
         padding: 15px 30px;
@@ -316,18 +298,13 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-
     #team-members img {
-        display: flex;
-        flex-direction: column;
         margin: 0 30px;
         justify-content: center;
     }
-
     #team-members h3 {
         margin-top: 10px;
     }
-    
     .button-p {
         width: 80%;
     }
@@ -338,7 +315,6 @@ footer {
     .hero {
         height: 600px;
     }
-
     .hero-text h1 {
         color: white;
         width: 400px;
@@ -346,7 +322,6 @@ footer {
         padding-bottom: 10px;
         margin-top: 80px;
     }
-
     .hero-text p {
         color: white;
         width: 400px;
@@ -354,7 +329,6 @@ footer {
         font-size: 2rem;
         margin-top: 20px;
     }
-
     .hero-text button {
         font-size: 1.5rem;
         padding: 15px 30px;
@@ -368,21 +342,17 @@ footer {
     .navbar {
         height: 130px;
     }
-
     .logo {
         height: auto;
         width: 300px;
     }
-
     .nav-item .nav-link {
         font-size: 1.5rem;
     }
-
     .btn-outline-light {
         font-size: 1.5rem;
         margin-left: 10px;
     }
-
     .hero-text h1 {
         color: white;
         width: 700px;
@@ -390,7 +360,6 @@ footer {
         padding-bottom: 10px;
         margin: 80px 0 0 40px;
     }
-
     .hero-text p {
         color: white;
         width: 600px;
@@ -398,26 +367,18 @@ footer {
         font-size: 2.5rem;
         margin: 20px 0 0 40px;
     }
-
     .hero-text button {
         font-size: 2rem;
         padding: 15px 30px;
         width: 600px;
         margin: 150px 0 0 40px;
     }
-
     #team-section h2 {
         font-size: 4rem;
     }
-
     .team-member p {
         font-size: 1.5rem;
     }
-
-    #section-text p {
-        font-size: 2rem;
-    }
-
     #team-members img {
         width: 300px;
         height: 300px;
@@ -449,8 +410,8 @@ footer {
 
 /* Notes / to-do */
 
-/* Contact us and follow us need to be horizontal for larger screens */
+/* Re-evaluate the layout to improve the aesthetics of the page
+- Reviews section
+- Services section */
 
-/* Fix small gap in the contact and socials section */
-
-/* Re-evaluate the layout to improve the aesthetics of the page */
+/* Build booking section */
