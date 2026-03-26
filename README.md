@@ -76,24 +76,25 @@ The screenshots below are a basic idea of the layout, subject to changes for acc
 (Navbar, hero banner and contact information wireframes are used across whole website.)
 
 ### Navbar and hero banner
-![Home page wireframe: navbar and hero banner](/Module%201%20-%20Planning/WireFrame%20Screenshots/Main%20page/navbar%20and%20hero.png)
+![Home page wireframe: navbar and hero banner](/module-1-planning/wireframe-screenshots/main-page/navbar-and-hero.png)
 
 ### Our Team section
-![Home page wireframe: Our team section](/Module%201%20-%20Planning/WireFrame%20Screenshots/Main%20page/staff%20section.png)
+![Home page wireframe: Our team section](/module-1-planning/wireframe-screenshots/main-page/staff-section.png)
 
 ### Testimonials
-![Home page wireframe: Testimonials](/Module%201%20-%20Planning/WireFrame%20Screenshots/Main%20page/testimonials.png)
+![Home page wireframe: Testimonials](/module-1-planning/wireframe-screenshots/main-page/testimonials.png)
 
 ### Contact information
-![Home page wireframe: Contact information](/Module%201%20-%20Planning/WireFrame%20Screenshots/Main%20page/contact%20information.png)
+![Home page wireframe: Contact information](/module-1-planning/wireframe-screenshots/contact-us-page/contact-information.png)
 
 ## Services page
 
-![Services page wireframe: Services and prices section](/Module%201%20-%20Planning/WireFrame%20Screenshots/Services%20page/Our%20services.png)
+![Services page wireframe: Services and prices section](/module-1-planning/wireframe-screenshots/services-page/our-services.png)
 
 ## Booking page
 
-![Booking page wireframe: Booking form](/Module%201%20-%20Planning/WireFrame%20Screenshots/Booking%20page/booking%20form.png)
+![Booking page wireframe: Booking form](/module-1-planning/wireframe-screenshots/booking-page/booking-form.png)
+
 
 # Technologies used
 

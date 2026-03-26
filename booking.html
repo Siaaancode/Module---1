@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--External stylesheet link-->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a href="/index.html"><img class="logo" src="/assets/images/logo.png" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#team-section">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#testimonials-section">Testimonials</a>
+                        </li>
+                    </ul>
+                    <button href="#" type="button" class="btn btn-outline-light">Book now</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="form-section">
+        <h1>Book with us today</h1>
+        <p>Fill out our form to book your appointment with us</p>
+        <form class="form" action="#" method="post">
+            Name<input type="text" name="name">
+            Phone Number<input type="number" name="phone">
+            Email<input type="email" name="email">
+
+            <label for="service">Service</label>
+            <select id="selection" name="service">
+                <Option value="Trim">Trim</Option>
+                <Option value="Basic Cut">Basic Cut</Option>
+                <Option value="Cut & Blow Dry">Cut & Blow Dry</Option>
+                <Option value="Fringe Cut">Fringe Cut</Option>
+                <Option value="Skin Fade / Taper Fade">Skin Fade / Taper Fade</Option>
+                <Option value="Buzz Cut">Buzz Cut</Option>
+                <Option value="Deep Condition ">Deep Condition </Option>
+                <Option value="Moisture Boost">Moisture Boost</Option>
+                <Option value="Olaplex Treatment">Olaplex Treatment</Option>
+                <Option value="Bond Repair">Bond Repair</Option>
+                <Option value="Scalp Repair">Scalp Repair</Option>
+                <Option value="Oil Massage">Oil Massage</Option>
+                <Option value="Full Head Colour">Full Head Colour</Option>
+                <Option value="Root Touch-Up">Root Touch-Up</Option>
+                <Option value="Highlights">Highlights</Option>
+                <Option value="Lowlights">Lowlights</Option>
+                <Option value="Balayage">Balayage</Option>
+                <Option value="Ombre / Colour Melt">Ombre / Colour Melt</Option>
+            </select>
+
+            Date<input type="date" name="date">
+            Time<input type="time" name="time">
+            <input type="submit">
+        </form>
+    </main>
+
+
+    <footer>
+        <div id="footer-section">
+            <div id="contact-us">
+                <!-- Address, email and phone number -->
+                <h3>Contact us</h3>
+                <p>123 Main Street, Anytown, USA</p>
+                <p>Email: info@lushlocks.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <!-- Socials -->
+            <div id="socials">
+                <h3>Follow us</h3>
+                <ul id="social-networks">
+                    <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (opens new tab)"><i
+                                class="fa-brands fa-facebook fa-4x"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our Instagram page (opens new tab)"><i
+                                class="fa-brands fa-square-instagram fa-4x"></i></a></li>
+                    <li><a href="https://twitter.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our Twitter page (opens new tab)"><i
+                                class="fa-brands fa-square-x-twitter fa-4x"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="copyright">
+            <p> &copy; 2026 Lush Locks. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!--Font Awesome -->
+    <script src="https://kit.fontawesome.com/96c9e4341c.js" crossorigin="anonymous"></script>
+
+    <!--Bootstrap CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

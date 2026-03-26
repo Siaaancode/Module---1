@@ -219,12 +219,13 @@ body {
     background-color: #E3CDBF;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 #services-button button {
     background-color: #553629;
     border: none;
+    border-radius: 10px;
     color: #E3CDBF;
     width: 80%;
     padding: 15px 0;
@@ -234,8 +235,8 @@ body {
 .button-p {
     padding: 10px 20px 0 20px;
     font-size: 1.2rem;
-    text-align: center;
     color: #553629;
+    align-self: center;
 }
 
 /*Footer*/
@@ -302,6 +303,47 @@ footer {
     margin: 10px;
 }
 
+/* Form submit page */
+
+#form-section {
+    background-color: #553629;
+    color: #E3CDBF;
+}
+#form-section h1,
+#form-section p {
+    display: flex;
+    justify-content: center;
+}
+#form-section h1 {
+    padding-top: 20px;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 10px 0 10px;
+    padding-bottom: 10px;
+    
+}
+.form input {
+    background-color: #E3CDBF;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+}
+#selection {
+    background-color: #E3CDBF;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+
 /*Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
 
@@ -350,6 +392,16 @@ footer {
     .button-p {
         width: 80%;
     }
+    
+    .form input {
+        width: 75%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    #selection {
+        width: 75%;
+}
     #footer-section {
         display: flex;
         flex-direction: row;
@@ -477,12 +529,12 @@ footer {
 
 /* Re-evaluate the layout to improve the aesthetics of the page
 
-- Footer
-     - tablets and larger, contact us and socials need to sit horizontally
-
 - Reviews section
 
 
 - Services section*/
 
-/* Build booking section */
+/* Build booking section
+
+ - Need to fix, not sitting aligned 
+ - Service section not the same size */
