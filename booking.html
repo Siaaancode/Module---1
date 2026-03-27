@@ -47,35 +47,56 @@
         <h1>Book with us today</h1>
         <p>Fill out our form to book your appointment with us</p>
         <form class="form" action="#" method="post">
-            Name<input type="text" name="name">
-            Phone Number<input type="number" name="phone">
-            Email<input type="email" name="email">
+            <div class="form-group">
+                <h2>Name</h2>
+                <input type="text" name="name" required>
+            </div>
+            <div class="form-group">
+                <h2>Phone Number</h2>
+                <input type="number" name="phone" required>
+            </div>
+            <div class="form-group">
+                <h2>Email</h2>
+                <input type="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <h2>Services</h2>
+                    <select id="service-selector" name="service" required>
+                        <option value="" disabled selected>Select a service</option>
+                        <option value="Trim">Trim</option>
+                        <option value="Basic Cut">Basic Cut</option>
+                        <option value="Cut & Blow Dry">Cut & Blow Dry</option>
+                        <option value="Fringe Cut">Fringe Cut</option>
+                        <option value="Skin Fade / Taper Fade">Skin Fade / Taper Fade</option>
+                        <option value="Buzz Cut">Buzz Cut</option>
+                        <option value="Deep Condition">Deep Condition </option>
+                        <option value="Moisture Boost">Moisture Boost</option>
+                        <option value="Olaplex Treatment">Olaplex Treatment</option>
+                        <option value="Bond Repair">Bond Repair</option>
+                        <option value="Scalp Repair">Scalp Repair</option>
+                        <option value="Oil Massage">Oil Massage</option>
+                        <option value="Full Head Colour">Full Head Colour</option>
+                        <option value="Root Touch-Up">Root Touch-Up</option>
+                        <option value="Highlights">Highlights</option>
+                        <option value="Lowlights">Lowlights</option>
+                        <option value="Balayage">Balayage</option>
+                        <option value="Ombre / Colour Melt">Ombre / Colour Melt</option>
+                    </select>
+            </div>
+            <div class="datetime">
+                <div class="form-group">
+                    <h2>Date</h2>
+                    <input id="date" type="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <h2>Time</h2>
+                    <input id="time" type="time" name="time" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <input id="form-btn" type="submit">
+            </div>
 
-            <label for="service">Service</label>
-            <select id="selection" name="service">
-                <Option value="Trim">Trim</Option>
-                <Option value="Basic Cut">Basic Cut</Option>
-                <Option value="Cut & Blow Dry">Cut & Blow Dry</Option>
-                <Option value="Fringe Cut">Fringe Cut</Option>
-                <Option value="Skin Fade / Taper Fade">Skin Fade / Taper Fade</Option>
-                <Option value="Buzz Cut">Buzz Cut</Option>
-                <Option value="Deep Condition ">Deep Condition </Option>
-                <Option value="Moisture Boost">Moisture Boost</Option>
-                <Option value="Olaplex Treatment">Olaplex Treatment</Option>
-                <Option value="Bond Repair">Bond Repair</Option>
-                <Option value="Scalp Repair">Scalp Repair</Option>
-                <Option value="Oil Massage">Oil Massage</Option>
-                <Option value="Full Head Colour">Full Head Colour</Option>
-                <Option value="Root Touch-Up">Root Touch-Up</Option>
-                <Option value="Highlights">Highlights</Option>
-                <Option value="Lowlights">Lowlights</Option>
-                <Option value="Balayage">Balayage</Option>
-                <Option value="Ombre / Colour Melt">Ombre / Colour Melt</Option>
-            </select>
-
-            Date<input type="date" name="date">
-            Time<input type="time" name="time">
-            <input type="submit">
         </form>
     </main>
 

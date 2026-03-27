@@ -52,7 +52,7 @@ body {
 
 /*Main*/
 .hero {
-    background: url(assets/images/hero_banner.png) no-repeat center center/cover;
+    background: url(/assets/images/hero_banner.png) no-repeat center center/cover;
     position: relative;
     width: 100%;
     height: 300px;
@@ -246,7 +246,6 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #E3CDBF;
-
 }
 
 #contact-us {
@@ -300,48 +299,56 @@ footer {
 }
 
 #copyright p {
-    margin: 10px;
+    margin: 20px;
 }
 
 /* Form submit page */
-
 #form-section {
     background-color: #553629;
     color: #E3CDBF;
+     min-height: 80vh;
 }
+
 #form-section h1,
 #form-section p {
     display: flex;
     justify-content: center;
+    
 }
+
 #form-section h1 {
     padding-top: 20px;
 }
+
 .form {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 10px 10px 0 10px;
-    padding-bottom: 10px;
-    
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
 }
-.form input {
+
+.form h2 {
+    margin: 5px;
+    padding-bottom: 0px;
+    font-size: 1rem;
+
+}
+.form input,
+#service-selector {
     background-color: #E3CDBF;
+    color: #553629;
     border: none;
     border-radius: 10px;
-    margin: 10px;
     width: 100%;
+    height: 26px;
     text-align: center;
 }
-#selection {
-    background-color: #E3CDBF;
-    border: none;
-    border-radius: 10px;
-    height: 30px;
-    width: 100%;
-    margin: 10px;
-    text-align: center;
+.datetime h2 {
+    margin-top: 0;
+    padding-top: 20px;
+}
+#form-btn {
+    margin-top: 20px;
 }
 
 /*Media query: tablets and larger (768px and up)*/
@@ -360,7 +367,6 @@ footer {
     }
 
     .hero-text p {
-        color: white;
         width: 400px;
         height: 100px;
         font-size: 1.5rem;
@@ -392,20 +398,48 @@ footer {
     .button-p {
         width: 80%;
     }
-    
-    .form input {
+
+    /*Booking form*/
+    .form {
         width: 75%;
-        margin-bottom: 20px;
+        height: 700px;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
+        gap: 5px;
     }
-    #selection {
-        width: 75%;
-}
+    #form-section h1 {
+        font-size: 3rem;
+        padding-top: 40px;
+    }
+    .form h2 {
+        font-size: 2rem;
+    }
+    .form input {
+        font-size: 1.5rem;
+        height: 40px;
+    }
+    #form-btn {
+        margin: 40px 0;
+        align-self: center;
+    }
+    #service-selector {
+        height: 40px;
+        font-size: 1.5rem;
+    }
+    .datetime {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .datetime .form-group {
+        width: 50%;
+    }
+  /*Footer*/
     #footer-section {
         display: flex;
         flex-direction: row;
-        width: 100%;
     }
 }
 
@@ -413,10 +447,10 @@ footer {
 @media screen and (min-width: 992px) {
     .hero {
         height: 600px;
+        padding: 20px;
     }
 
     .hero-text h1 {
-        color: white;
         width: 400px;
         font-size: 3.5rem;
         padding-bottom: 10px;
@@ -424,7 +458,6 @@ footer {
     }
 
     .hero-text p {
-        color: white;
         width: 400px;
         height: 100px;
         font-size: 2rem;
@@ -437,10 +470,35 @@ footer {
         width: 400px;
         margin-top: 100px;
     }
+     /*Footer*/
+    #footer-section {
+        display: flex;
+        min-height: 100%;
+        flex-direction: row;
+        width: 100%;
+    }
+    #copyright {
+        height: 120px;
+    }
+    #copyright p {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    /*Form page*/
+    .form {
+        height: 880px;
+        justify-content: space-around;
+    }
+    #service-selector {
+        font-size: 1.5rem;
+    }
 }
 
 /* Media query: Large screens (1200px and up) */
 @media screen and (min-width: 1200px) {
+
+    /*navbar*/
     .navbar {
         height: 130px;
     }
@@ -459,8 +517,8 @@ footer {
         margin-left: 10px;
     }
 
+    /*Hero banner*/
     .hero-text h1 {
-        color: white;
         width: 700px;
         font-size: 4rem;
         padding-bottom: 10px;
@@ -468,7 +526,6 @@ footer {
     }
 
     .hero-text p {
-        color: white;
         width: 600px;
         height: 100px;
         font-size: 2.5rem;
@@ -482,6 +539,7 @@ footer {
         margin: 150px 0 0 40px;
     }
 
+    /*Team section*/
     #team-section h2 {
         font-size: 3rem;
     }
@@ -496,10 +554,12 @@ footer {
         margin: 0 100px;
     }
 
+    /*Reviews*/
     #testimonials-section h2 {
         font-size: 3rem;
     }
 
+    /*Services page*/
     #services {
         display: flex;
         flex-direction: row;
@@ -521,6 +581,14 @@ footer {
 
     #services-button p {
         font-size: 1.5rem;
+    }
+
+    /*Booking page*/
+    #form-section h1 {
+        font-size: 5rem;
+    }
+    #form-section p {
+        font-size: 2rem;
     }
 }
 
