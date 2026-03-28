@@ -8,10 +8,18 @@
 Secondary - #642E17
 Hightlight - #E3CDBF */
 
+html, body {
+    height: 100%;
+}
 body {
     font-family: 'playfair-display', serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
 }
 
 /*Header*/
@@ -241,7 +249,17 @@ body {
     color: #553629;
     align-self: center;
 }
+/* Confirmation page */
 
+#confirmation {
+    background-color: #553629;
+    color: #E3CDBF;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 /*Footer*/
 footer {
     display: flex;
@@ -478,6 +496,10 @@ form input,
     .datetime .form-group {
         width: 50%;
     }
+    #confirmation h1,
+    #confirmation p {
+        font-size: 2.5rem;
+    }
 
     /*Footer*/
     #footer-section {
@@ -521,7 +543,6 @@ form input,
     /*Footer*/
     #footer-section {
         display: flex;
-        min-height: 100%;
         flex-direction: row;
         width: 100%;
     }
@@ -543,6 +564,10 @@ form input,
 
     #service-selector {
         font-size: 1.5rem;
+    }
+    #confirmation h1,
+    #confirmation p {
+        font-size: 3.5rem;
     }
 }
 
