@@ -12,7 +12,7 @@ To achieve a good user experience for this project I have focused on creating a 
 The main goals of this project:
 - User friendly navigation and visually appealing design layout throught out the website.
 - Clear and easily accessible information on services and business contact information, as well as a simple and easy to use appointment bookings page. 
-- Entice new customers with a professional layout, engaging reviews, staff profiles and portfolio works.
+- Entice new customers with engaging reviews, staff profiles and portfolio works.
 
 ## User Goals
 The main user goals of this project:
@@ -127,25 +127,35 @@ Anything highlighted as a must-have is what I have considered as a non-negotiabl
 
 ## User Stories (User Research)
 
-1. “Easy navigation and a customer friendly design is important to find the right information fast and effortlessly on all devices.” Must-Have
+1. “As a customer that’s visually impaired, strong descriptions with images on a webpage and good colour contract is important.” Must-Have
 
-2. “As a customer that’s visually impaired, strong descriptions with images on a webpage and good colour contract is important.” Must-Have
+2. “As a customer, I would like to book my appointment online, so I can schedule at a convenient time without needing to call.”	Must-Have
 
-3. “As a customer, I would like to book my appointment online, so I can schedule at a convenient time without needing to call.”	Must-Have
+3. “As a customer, I want to view the salon’s services and prices, so that I know what treatments are available, what they entail and how much they cost before booking.” Must-Have
 
-4. “As a customer, I want to view the salon’s services and prices, so that I know what treatments are available, what they entail and how much they cost before booking.” Must-Have
+4. “As a customer, I want to see the location and opening times so I know when I can go and how to get there.” Must-Have
 
-5. “As a customer, I want to see the location and opening times so I know when I can go and how to get there.” Must-Have
+5. “As a customer, seeing the work of the staff helps me to understand what they are capable of, and can comfortably do, giving me confidence in their abilities.”	Could-Have
 
-6. “Seeing the work of the staff helps me to understand what they are capable of, and can comfortably do, giving me confidence in their abilities.”	Could-Have
+6. “As a new resident to the area, finding a reliable hair salon with good reviews is important to me so I know that I’m getting a good service.” Should-Have
 
-7. “As a new resident to the area, finding a reliable hair salon with good reviews is important to me so I know that I’m getting a good service.” Should-Have
+7. “As a customer, I would like to view the staff and see what their specialities are, to help me feel more comfortable choosing a service and what I can expect from them.” Should-have
 
-8. “I would like to view the staff and see what their specialities are, to help me feel more comfortable choosing a service and what I can expect from them.” Should-have
+## Business Stories (Business Research)
+
+1. “I'd like my website to have easy navigation, and a customer friendly design is important for users to find the right information fast and effortlessly on all devices.” Must-Have
+
+2. "I'd like my customers to be able to book online easily, with a booking page that has a simple form for them to fill out. This will help increase the number of customers bookings." Must-have
+
+3. "My website needs to reflect the professionalism of my business and build trust with users, with specific brand colours, images and business logo." Must-have
+
+4. "The businesses information needs to be easy to locate for my customers, so they can easily get in contact or visit the business." Must-have
+
+5. "My website needs to include social media links that direct my customers to the businesses social media, so they can explore more of what we do and stay engaged with the business." Should-have
 
 # Design Choice
 
-My design choice have been primarily based on the users needs and aesthetic design. I have strategically chosen the colours, layout and fonts to help guide the users throught the webpages with a steady flow, while grabbing attention for each section.
+My design choices have been based on the users and clients needs and aesthetic design. I have strategically chosen the layout to help guide the users throught the webpages with a steady flow, while grabbing attention for each section. For the clients needs, I have incorpirated their brand colour palette and used a font that reflects their brand.
 
 For example, placing the text of the hero banner to the left, as the main part of the image sits on the right. This helps to balance the hero banner and creates a gap between the text and image.
 
@@ -248,11 +258,11 @@ The structure of this project has been designed to support user experience by us
 
 The key features such as services, testimonials and book now buttons are placed to guide users to take action and help improve business visability. Another example of this is the placement of the contact features. For instance, by grouping together based on simularities it aids the users to find the right content they seek.
 
-As seen above in the Wireframe section, I have utilised this tool to create a basic visual representation of what I was aiming to design. I kept it quite simple to allow space for creative ideas to develop as I went along, while still guiding me to keep the design clean. These layouts show clear intructions of navigation to users, as well as a thoughtout plan for where each section will be to an effective flow through the website and purposeful organisation of features.
+As seen above in the Wireframe section, I have utilised this tool to create a basic visual representation of what I was aiming to design. I kept it quite simple to allow space for creative ideas to develop as I went along, while still guiding me to keep the design clean. These layouts show clear intructions of navigation to users, as well as a thoughtout plan for where each section will be to insure a effective flow through the website and purposeful organisation of features.
 
 # Website Skeleton
 
-I've incorporated elements of interface design to help encourage users to engage with the website. By adding multiple buttons linked to the booking page, it will increases the likelihood of successful bookings. The booking form alone is a vital part of the funtionality of the website and a required must by users. With that I made sure to include all required and necessary information for an easy submittion and booking process. 
+I've incorporated elements of interface design to help encourage users to engage with the website. By adding multiple buttons linked to the booking page, it will increases the likelihood of successful bookings. The booking form alone is a vital part of the funtionality of the website and a required must by users and client. With that I made sure to include all required and necessary information for an easy submittion and booking process. 
 
 With the navigation, I used bootstrap to create a clean and easy to use navbar. I included 2 page links, 2 section links and a book now button. By creating links for every feature, it helps users navigate to the information they want easier, with limited effort.
 
@@ -290,7 +300,7 @@ This project is accessible through GitHub Pages. By deploying through this I can
 
 ## Path through Website
 
-The first page that users see when viewing the website is the landing page. They are greeted by a hero banner, call to action button and the navigation bar. It is important to make a good first impression for users when they first visit the website, as this greatly impacts the amount of time they will spend there. 
+The page users are likely to first see when viewing the website is the landing page. They are greeted by a hero banner, call to action button and the navigation bar. It is important to make a good first impression for users when they first visit the website, as this greatly impacts the amount of time they will spend there. 
 
 ### Navbar
 Logo button and Home button - Home page
@@ -305,99 +315,143 @@ By having all pages accessible straight away from the navigation bar, increases 
 
 The hero banner creates an inviting feeling to the home page with a welcome message greeting the users. From there, users can explore the options by either scrolling or using the navbar to locate different sections of the website.
 
-## Call to action buttons
+### Call to action buttons
 
-To improve the chances of users making a booking, multiple book now buttons have been used throughtout the website, including the navbar. When at the booking page, a simple form can be filled out and submitted leading to a confirmation page. A navbar has been included on the confirmation page, this leads users back to view any of the sections fo the website if they wish.
+To improve the chances of users making a booking, multiple book now buttons have been used throughtout the website, including the navbar. When at the booking page, a simple form can be filled out and submitted leading to a confirmation page. A navbar has been included on the confirmation page, this leads users back to view any of the sections of the website if they wish.
+
+### Our team and Testimonials links
+
+The navbar has two links that help users navigate to these particular areas on the home page, while also being accessible from other pages. It creates an easy way for users to view this content with little effort.
+
+### Services link
+
+This link takes the users to the services page that contains a list of services and prices the business provides. This is important information that users would need before making a decision about using the business.
+
+### Booking page and Confirmation page
+
+Multiple buttons have been placed across all pages of the website linking to the booking page. Its contents contain a simple booking form for users to fill out and submit. It offers certain details like selecting a specific time and date, so users can book at their own convienence. Once submitted, the users are then taken to a confirmation page, so they know their appointment is confirmed, which helps build confidence between the user and business.
+
+### Contact information (footer)
+
+All vital contact and business information has been placed at the bottom of all the pages, so users have easy access across the website. I've grouped the contact details, opening times and social media links together, as they relate to each other for what the user may want to see after finding what they initially were looking for.
 
 ### Website sections
 
 To help divide up the different sections, such as the home page for example, I used different colour backgrounds to create a visual barrier between sections. 
 
-Keeping content that relates well together grouped helps users find simular content they may have been looking for, example they want to look at the address to see where it is and then notice the opening times next to it.
+Keeping content that relates well together, helps users find simular content they may have been looking for, example they want to look at the address to see where it is and then notice the opening times next to it so they know when they can go.
 
-By naming a link clearly, helps users understand exactly what they may be going to. for example, users needs to find services, by clicking services they get the services page that has the information they are looking for.
+By naming a link clearly, helps users understand exactly what page they may be going to. For example, users needs to find services, by clicking services they get the services page, etc.
 
 ## Testing User Stories
 
-1. “Easy navigation and a customer friendly design is important to find the right information fast and effortlessly on all devices.” 
+1. “As a customer that’s visually impaired, strong descriptions with images on a webpage and good colour contract is important.”
 
-I achieved this goal by keeping the navigation bar simple with a link for each major section. The design of the nav bar creates a super simple way for users to navigate through the website with ease and limited thought.
+When trying to make the website as accessible as possible I considered a few factors including, colour palette, fonts and alt attributes. The colours used contrast eachother well, the font is clear and professionally represents the brand. The alt attributes make images readable for screen readers. By adding these I've created a space that is accessible for visually impaired users.
 
-2. “As a customer that’s visually impaired, strong descriptions with images on a webpage and good colour contract is important.”
+2. “As a customer, I would like to book my appointment online, so I can schedule at a convenient time without needing to call.”
 
-When trying to make the website as accessible as possible I considered a few of factors including, colour palette, fonts and alt attributes. The colours used contrast eachother well, the font is clear and professionally represents the brand and the alt attributes make images readable for screen readers. By adding these I've created a space that is accessible for visually impaired users.
+For this user story I created a specific page just for the booking of appointments. It contains a simple form that requires basic information inputs from the users. The buttons guide users, which helps speed up the progress if they are choosing to book online. By having them in multiple locations adds consistantcy, ease and speed to access the page.
 
-3. “As a customer, I would like to book my appointment online, so I can schedule at a convenient time without needing to call.”
+3. “As a customer, I want to view the salon’s services and prices, so that I know what treatments are available, what they entail and how much they cost before booking.”
 
-For this user story I created a specific page just for the booking of appointments. It contains a simple form that requires basic information inputs from the users. The buttons guide users which helps speed up the progress if they are choosing to book online. By having them in multiple locations adds consistantcy, ease and speed to access the page.
+The service page was created for this particular need and it's a standard requirement of information for websites in this business. Creating a simple, easy to read list of services with descriptions and prices was key to achieving this users story.
 
-4. “As a customer, I want to view the salon’s services and prices, so that I know what treatments are available, what they entail and how much they cost before booking.”
+4. “As a customer, I want to see the location and opening times so I know when I can go and how to get there.”
 
-The service page was created for this particular users needs and it's a standard requirement of information for websites in this business. Creating a simple, easy to read list of services with descriptions and prices was key to achieving this users story.
+Grouping all business information from phone numbers to location was important, so users can see all the important contact details they need in one place. Having a link in the navigation that directs them directly there helps the users find what they need quicker and easier.
 
-5. “As a customer, I want to see the location and opening times so I know when I can go and how to get there.”
+5. “As a customer, seeing the work of the staff helps me to understand what they are capable of, and can comfortably do, giving me confidence in their abilities.”
 
-Grouping all business information from numbers to location was important so users can see all the important contact details they need in one place. Having a link in the navigation that directs them directly there helps the users find what they need quicker and easier.
+This user story was considered a could-have and unfortunatly did not make it onto the project. If it was created, it would have been its own page, with an array of photos to promote and instil confidence in the services and team.  
 
-6. “Seeing the work of the staff helps me to understand what they are capable of, and can comfortably do, giving me confidence in their abilities.”
-
-This user story was considered a could-have and unfortunatly did not make it onto the project. If it was created it would have been its own page, with an array of photos to promote and instil confidence in the services and team.  
-
-7. “As a new resident to the area, finding a reliable hair salon with good reviews is important to me so I know that I’m getting a good service.”
+6. “As a new resident to the area, finding a reliable hair salon with good reviews is important to me so I know that I’m getting a good service.” 
 
 This was achieved by creating the testimonials section. By providing a few good reviews with users names and a brief description of their experience it has promoted a level of trust between new / current users and the team.
 
-8. “I would like to view the staff and see what their specialities are, to help me feel more comfortable choosing a service and what I can expect from them.”
+7. “As a customer, I would like to view the staff and see what their specialities are, to help me feel more comfortable choosing a service and what I can expect from them.”
 
 By presenting the team in their own section, it allows users to see the specialty skill sets of the staff and create confidence in the business and services that it can provide. By having the names, skills and photo of the staff allows users to understand who they might be booking their appointment with and what they can expect from their service.
 
+## Testing Business Stories
+
+1. “I'd like my website to have easy navigation, and a customer friendly design is important for users to find the right information fast and effortlessly on all devices.”
+
+I achieved this goal by keeping the navigation bar simple with a link for each major section. The design of the nav bar creates a super simple way for users to navigate through the website with ease and limited thought.
+
+2. "I'd like my customers to be able to book online easily, with a booking page that has a simple form for them to fill out. This will help increase the number of customers bookings."
+
+This goal focuses on increasing the amount of bookings for the business and is achieved by creating exactly what the client requested, a simple form with specific features to encourage users to book in advance.
+
+3. "My website needs to reflect the professionalism of my business and build trust with users, with specific brand colours, images and business logo."
+
+By using colours that contast and reflect the business logo, I have created an aesthetic that provides confidence and professionalism for the business and meets the clients needs. The images I chose also match the colour palette and businesses purpose.
+
+4. "The businesses information needs to be easy to locate for my customers, so they can easily get in contact or visit the business."
+
+The business contact details and information was a key feature to include. It promotes the users to not just invest their time into considering the business but take action to reach out, visit and interact in multiple ways.
+
+5. "My website needs to include social media links that direct my customers to the businesses social media, so they can explore more of what we do and stay engaged with the business."
+
+Using other methods of communication such as social medias, help keep users engaged with the business and offers additional ways for them to interact and view the business. By having these external platforms, it creates additional ways to promote the business and bring in more potential users. 
+
 ## Final checks 
 
-W3C HTML validator - passed 
-W3C CSS validator - passed 
-DevTools Lighthouse - passed
-Github Pages - passed/failed  
+W3C HTML validator - passed  
+W3C CSS validator - passed  
+DevTools Lighthouse - passed  
+Github Pages - passed/failed   
 
 # Deployment
 ## How to run this project locally
-- First, clone the repository from https://github.com/Siaaancode/Module---1
-- Open the project folder within a local IDE (Integrated Development Environment) such as VSCode.
+
+- First, go to the GitHub Repository for https://github.com/Siaaancode/Module---1
+- Click the deployments link, find the most recent deployment and click that, which will open a tab containing the deployed site.
+- If a live deployment isn't available, you need to clone the repository to your own machine by typing "git clone" in the terminal followed by the above link on a local IDE (Integrated Development Environment), such as VSCode.
+- Open the project folder within the IDE, open the preview option on one of the HTML files for a browser.
 
 ## Steps to deploy this website
 
+- Open GitHub, log in/sign up and create a respository.
+- Open the terminal in the IDE and link it to your GitHub account. 
+- Then copy the repository information from GitHub to the IDE. This will link them together. 
+- Commit your project with commands through the terminal and push them.
+- Go back to GitHub and click the settings button, then the pages option.
+- Ensure the Source is set to 'Deploy from a branch' and Branch is set to 'main' and '/(root)'
+- Once completed, a link at the top of that page will become available. Simply click it and it will open a new tab of the deployed site. 
+
 ## Bugs Discovered
 
-- Struggled to change colour of active button in nav bar (not-fixed)
-- Struggle with making hero banner visable on github pages (Fixed)
-- Struggled with making services selector for booking page (Fixed)
-- Centering the date and time inputs for booking page (not-fixed)
-- Struggled with alignment in general (footer, services section, etc. wouldn't align horizontally on larger screen sizes) (fixed)
-- Performance issues (image file type)
-- Accessibility (forgot to add alt property to some images)
+Multiple bugs and issues were discovered during the proccess of creating this project. Most were resolved but a few I struggled to resolve.
 
+### Fixed
+
+- Making the hero banner visable on github pages (resolved by correcting the file path in the CSS file)
+- Struggled with making services selector a required section for booking page (resolved by correcting the HTML code. I tested which section of the code needed the required element to work) 
+- Struggled with alignment in general (footer, services section, etc. wouldn't align horizontally on larger screen sizes) Fixed HTML code which was missing divs that allowed control of all elements in a section.
+- Performance issues, image file type. (resolved by changing the image file from jpegs to Webp)
+- Accessibility, forgot to add alt property to some images. (resolved by adding the alt properties)
+
+### Not Fixed
+
+- Change colour of active button in nav bar.
+- Centering the date and time inputs for booking page.
 
 # Project Evaluation
 
-## Did it meet my goals? 
-- Is it successful in these goals? (Does it build trust, encourage bookings, ect.)
-- Is it clear, accurate and up to date? 
-- Is the website responsive across different devices? 
-- Does it meet accessibility needs? 
-- Quick load times and function properly?
-
-## Did I research well enough? 
-
-- What did I gain from my research? 
-- What did I improve/what did I do better/worse?
-
-## What further improvements would I make?
+## Further improvements I could make
 
 - Customer login accounts
 - Loyalty rewards programme
 - Online payment options
 
 # Credits
-- Content (text prediction, vscode)
-- Media (ChatGPT image generation)
-- Code
-- Acknowledgments
+
+## Content 
+- Some Text predictions, from vscode
+
+## Media 
+- ChatGPT, image generation
+
+## Code
+- Bootstrap, navbar creation
