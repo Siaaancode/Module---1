@@ -203,6 +203,28 @@ main {
     padding: 20px 0;
     margin: 0;
 }
+#services-navbar {
+    background-color: #553629;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#services-navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0 10px;
+    color: #E3CDBF;
+    margin-top: 10px;
+    text-align: center;
+}
+#services-navbar-links a {
+    color: #E3CDBF;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
 
 #services {
     background-color: #E3CDBF;
@@ -689,4 +711,3 @@ form input,
 /* 4. Add a map to footer */
 /* 5. Navbar under services hero to jump to different services sections */
 /* 6. Header sticks to top of page when scrolling */
-/* 7. Add navbar link to contact us */
