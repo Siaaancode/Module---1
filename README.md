@@ -1,5 +1,16 @@
 # Module---1 Hair Salon Website
 
+## Table of Contents
+1. [Project information](#project-description)
+2. [Strategy](#website-strategy)
+3. [Scope](#website-scope)
+4. [Surface](#website-surface)
+5. [Structure](#website-structure)
+6. [Skeleton](#website-skeleton)
+7. [Technologies used](#technologies-used) 
+8. [Testing](#testing)
+9. [Deployment](#deployment)
+
 ## Project Description
 
 This project is my final submission for the module 1 unit of my web development course with South Staffordshire college. 
