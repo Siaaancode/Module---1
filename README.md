@@ -451,6 +451,95 @@ Multiple bugs and issues were discovered during the process of creating this pro
 
 # Project Evaluation
 
+## Final screenshots of finished website
+
+### Mobile and screen sizes (under 768px)
+#### Home page (navbar and hero banner)
+
+![Home Page](/module-1-planning/final-website-screenshots-small-screens/home-page.png)
+
+#### Navbar dropdown menu
+![Navbar dropdown](/module-1-planning/final-website-screenshots-small-screens/navbar-dropdown.png)
+
+#### Team section 1
+![Our team section 1](/module-1-planning/final-website-screenshots-small-screens/our-team-section-1.png)
+
+#### Team section 2
+![Our team section 2](/module-1-planning/final-website-screenshots-small-screens/our-team-section-2.png)
+
+#### Reviews section
+![Reviews section](/module-1-planning/final-website-screenshots-small-screens/reviews-section.png)
+
+#### Footer section
+![Footer section](/module-1-planning/final-website-screenshots-small-screens/footer-section.png)
+
+#### Services page
+![Services page](/module-1-planning/final-website-screenshots-small-screens/services-page.png)
+
+#### Services section 1
+![Services section 1](/module-1-planning/final-website-screenshots-small-screens/our-services-section%201.png)
+
+#### Services section 2
+![Services section 2](/module-1-planning/final-website-screenshots-small-screens/our-services-section-2.png)
+
+#### Services section 3
+![Services section 3](/module-1-planning/final-website-screenshots-small-screens/our-services-section-3.png)
+
+#### Booking page
+![Booking page](/module-1-planning/final-website-screenshots-small-screens/booking-page.png)
+
+#### Confirmation page
+![Confirmation page](/module-1-planning/final-website-screenshots-small-screens/confirmation-page.png)
+
+### Tablets and larger (768px and up)
+
+#### Home page (navbar and hero banner)
+![Home page](/module-1-planning/final-website-screenshots-medium-screens/home-page.png)
+
+#### Navbar dropdown menu
+![Navbar dropdown](/module-1-planning/final-website-screenshots-medium-screens/navbar-dropdown.png)
+
+#### Team section
+![Our team section](/module-1-planning/final-website-screenshots-medium-screens/our-team-section.png)
+
+#### Reviews section
+![Reviews section](/module-1-planning/final-website-screenshots-medium-screens/reviews-section.png)
+
+#### Footer section
+![Footer section](/module-1-planning/final-website-screenshots-medium-screens/footer-section.png)
+
+#### Services section 1
+![Our services section 1](/module-1-planning/final-website-screenshots-medium-screens/our-services-section.png)
+
+#### Services section 2
+![Our services section 2](/module-1-planning/final-website-screenshots-medium-screens/our-services-section-2.png)
+
+#### Booking page
+![Booking page](/module-1-planning/final-website-screenshots-medium-screens/booking-page.png)
+
+#### Confirmation page
+![Confirmation page](/module-1-planning/final-website-screenshots-medium-screens/confirmation-page.png)
+
+### Laptops and larger (992px and up)
+
+#### Home page (navbar and hero banner)
+![Home page](/module-1-planning/final-website-screenshots-large-screens/home-page-start.png)
+
+#### Team section
+![Our team section](/module-1-planning/final-website-screenshots-large-screens/our-team-section.png)
+
+#### Reviews section
+![Reviews section and footer section](/module-1-planning/final-website-screenshots-large-screens/reviews-section.png)
+
+#### Services section
+![Services page](/module-1-planning/final-website-screenshots-large-screens/our-services-section.png)
+
+#### Booking page
+![Booking page](/module-1-planning/final-website-screenshots-large-screens/booking-page.png)
+
+#### Confirmation page
+![Confirmation page](/module-1-planning/final-website-screenshots-large-screens/confirmation-page.png)
+
 ## Further improvements I could make
 
 - Customer login accounts

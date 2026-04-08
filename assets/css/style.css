@@ -64,7 +64,7 @@ main {
 
 /*Main*/
 .hero {
-    background: url(assets/images/hero_banner.webp) no-repeat center center/cover;
+    background: url(/assets/images/hero_banner.webp) no-repeat center center/cover;
     position: relative;
     width: 100%;
     min-height: 300px;
@@ -351,6 +351,7 @@ footer {
     align-items: center;
     width: 100%;
     color: #553629;
+    padding-top: 20px;
 }
 
 #socials h2 {
@@ -433,7 +434,7 @@ form input,
     transform: scale(1.03);
 }
 
-/*Media query: tablets and larger (768px and up)*/
+/*Media query: Tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
 
     /*Hero banner*/
@@ -706,6 +707,7 @@ form input,
 
 /* Notes / to-do */
 
+/* 1. Generate more favicons in white (16x16 & 32x32) */
 /* 2. Re-evaluate the layout of Services page to improve the aesthetics */
 /* 3. Reconsider the colour scheme */
 /* 4. Add a map to footer */
