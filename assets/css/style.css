@@ -28,6 +28,9 @@ main {
 /*Header*/
 .navbar {
     background-color: #E3CDBF;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 .navbar .nav-link.active {
@@ -71,6 +74,7 @@ main {
     display: flex;
     justify-content: flex-start;
     color: #E3CDBF;
+    margin-top: 80px; /* Stops the hero banner from being overlapped by navbar */
 }
 
 .hero-text h1 {
@@ -203,6 +207,7 @@ main {
     padding: 20px 0;
     margin: 0;
 }
+
 #services-navbar {
     background-color: #553629;
     height: 80px;
@@ -210,6 +215,7 @@ main {
     align-items: center;
     justify-content: center;
 }
+
 #services-navbar-links {
     display: flex;
     align-items: center;
@@ -220,6 +226,7 @@ main {
     margin-top: 10px;
     text-align: center;
 }
+
 #services-navbar-links a {
     color: #E3CDBF;
     text-decoration: none;
