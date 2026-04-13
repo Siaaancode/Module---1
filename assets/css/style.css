@@ -215,7 +215,7 @@ main {
 }
 
 #services-navbar {
-    background-color: #553629;
+    background-color: #E3CDBF;
     height: 80px;
     display: flex;
     align-items: center;
@@ -233,10 +233,11 @@ main {
     text-align: center;
 }
 
-#services-navbar-links a {
-    color: #E3CDBF;
+#services-navbar-links a{
+    color: #553629;
     text-decoration: none;
     font-size: 1.2rem;
+    border-bottom: 2px solid #553629;
 }
 
 #services {
@@ -596,7 +597,7 @@ form input,
     #footer-section {
         display: flex;
         flex-direction: row;
-        width: 100%;
+        width: 80%;
     }
 
     #copyright {
@@ -707,6 +708,10 @@ form input,
 
     .services-section {
         width: 50%;
+    }
+    #services-navbar a {
+        font-size: 2rem;
+        padding: 0 20px;
     }
 
     #haircuts,
