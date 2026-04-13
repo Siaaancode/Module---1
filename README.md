@@ -1,42 +1,43 @@
 # Module---1 Hair Salon Website
 
+This project is my final submission for the Module 1 unit of my Web Development course at South Staffordshire College.
+
 ## Table of Contents
 1. [Project information](#project-description)
 2. [Strategy](#website-strategy)
 3. [Scope](#website-scope)
-4. [Surface](#website-surface)
-5. [Structure](#website-structure)
-6. [Skeleton](#website-skeleton)
+4. [Structure](#website-structure)
+5. [Skeleton](#website-skeleton)
+6. [Surface](#website-surface)
 7. [Technologies used](#technologies-used) 
 8. [Testing](#testing)
 9. [Deployment](#deployment)
 
 ## Project Description
 
-This project is my final submission for the Module 1 unit of my Web Development course at South Staffordshire College. 
+The aim for this project was to create a fully responsive hair salon website, which provides users with business information, promote services and allow users to book appointments easily.
 
-For this project, I have created a hair salon website with the purpose of informing customers about the business, highlighting services provided and encouraging users to book appointments. By incorporating elements like a service page, a contact information section and a booking form as a base, I have achieved the basic requirements of the project's goals.
+This was built with a strong focus on accessibility and user-friendly experiences, to help ensure all users current and new can eaily navigate the website and access key actions. By utilising the user and business stories, I was able to identify and implement the essential requirements needed to meet their goals. While providing the users with key features they need and meeting the requirements of the business.
 
-To achieve a good user experience for this project, I have focused on creating a user-friendly navigation, providing useful information about the business and adding elements that instil customer confidence when booking online. 
+# Website Strategy
+
+The strategy for this project was to create a user-friendly and accessible website, that meets the needs of both users and the business. By providing information that is clear and essential to the users, such as, services and contact information, as well as meeting the expectations of the business, such as responsive design. All project goals are listed below:
 
 ## Project Goals
 The main goals of this project:
-- User-friendly navigation and visually appealing design layout throughout the website.
-- Clear and easily accessible information on services and business contact information, as well as a simple and easy-to-use appointment booking page. 
-- Entice new customers with engaging reviews, staff profiles and portfolio works.
-
-## User Goals
-The main user goals of this project:
-- Easy navigation for information.
-- Clear layout of services and prices.
-- Build confidence and trust in the business.
+- To design a good user experience, by creating a clear and intuitive navigation bar.
+- To build a fully responsive design, that is consistant throughout all device sizes.
+- To clearly presents all major sections, to make information easier to locate (contact information, services, etc.)
+- To create accessibility to all users by using descriptive alt text, contrasting colours and legible typography.
+- To meet the needs of user and business stories, by incorporating the most essential features and functionalities.
+- To build trust and confidence between the business and its users through professional design choices and additional features that add value.
 
 ## Target Audience
 - New customer looking for a reliable hair salon in their area.
-- Existing customers looking to explore new services.
-- Customers who want to access business information, services and view the salon's style range.
+- Customers looking to explore new services with ease.
+- Customers who want to book appointments, that are convenient for them. 
 
-# Website Strategy
+The target audience focuses on locals to the business, new and existing. By incorporating elements that fit both parties needs, it creates an engaging platform where users can explore services, find important information and book appointments with ease.
 
 ## Research
 
@@ -126,11 +127,25 @@ What would I improve?
 - I'd review the layout and simplify.
 - Either make use of the sections that have been created or remove them.
 
+## Research Outcome
+
+Through this research, I was able to begin identifying what elements and features would best meet users and business needs.
+
+Top priorities for users:
+- Finding services and prices (Accessible information)
+- Ability to book appointments (Convenience)
+- View reviews and teams to instil confidence (Confidence and trust)
+
+Top priorities for the business:
+- Increase appointments (ability to book)
+- Build confience in business (reviews and team section)
+- Promote services (services information)
+
 # Website Scope
 
 For this project, I used an agile development approach by using GitHub projects to organise and prioritise the website's features. 
 
-By creating small tasks based on user stories' requirements, I was able to categorise and decide the needs and wants of the users. By understanding these, I am able to determine what users want to achieve and what the website needs for them. As well as what the users would like and features that could benefit them.
+By creating small tasks based on user and business stories' requirements, I was able to categorise and decide the needs and wants of the users and business. By understanding these, I am able to determine what the needs and wants are and priorities them accordingly. As well as what the users would like and features that could benefit them.
 
 ## MVP (minimum viable product)
 
@@ -164,31 +179,123 @@ Anything highlighted as a must-have is what I have considered as a non-negotiabl
 
 5. "My website needs to include social media links that direct my customers to the business's social media, so they can explore more of what we do and stay engaged with the business." Should-have
 
-# Design Choice
+## Features
 
-My design choices have been based on the users' and clients' needs and aesthetic design. I have strategically chosen the layout to help guide the users through the webpages with a steady flow, while grabbing attention for each section. For the client's needs, I have incorporated their brand colour palette and used a font that reflects their brand.
+The features for this project were prioritised using the MOSCOW method:
+- Must-Have – Essential features required for the project to function.
+- Should-Have – Important features that improve user experience.
+- Could-Have – Optional features that add extra value.
 
-For example, placing the text of the hero banner to the left, as the main part of the image sits on the right. This helps to balance the hero banner and creates a gap between the text and image.
+This approach has helped to ensure that the most important features are completed first.
 
-## Colour Palette
+## User features
 
-When deciding a colour palette, some factors had to be considered, such as whether the colours contrast enough to not affect the visually impaired, whether they work aesthetically, and whether they reflect the business's brand.
+### Must-Have
+- Accessibility.
+- Appointment booking form.
+- Services information.
+- Business information.
 
-To avoid any major contrasting issues, I used the WebAIM website (https://webaim.org/resources/contrastchecker/) to ensure that the colours worked well together for accessibility. 
+### Should-Have
+- Meet the staff section.
+- Testimonials.
 
-### Colours
+### Could-Have
+- Staff portfolios.
 
-Primary - #553629
+## Business features
 
-Secondary - #E3CDBF
+### Must-Have
+- Responsive design.
+- Easy navigation.
+- Designed with business brand in mind.
+- Business information.
 
-I chose these colours because I felt they reflected the brand's professionalism and modern vibes. It was important that they passed the ratio test on the WebAIM website to ensure accessibility was achieved.
+### Should-Have
+- Business' social media links available.
 
-### Typography
+## How user features support user stories:
 
-For the typography, I used Google Fonts' Playfair Display (https://fonts.google.com/specimen/Playfair+Display). Considering the type of business my project is, a Serif font seemed the best option for a more professional and polished look, and I used a standard serif font as a secondary backup.
+Accessibility encourages a welcoming environment for all customers, allowing everyone to experience the website in their own way. A booking page allows users to schedule at convenience and with ease. Service information offers all the appropriate content users will need, regarding the services available. Key business information offers users the opportunity to reach out to the business, in anyway that best suits them. Meet the staff and testimonials sections help promote confidence and trust in the business, by offering information about the staff that may serve them and previous users experiences of the business. Staff portfolios give users the opportunity to view the previous work of current staff, helping to promote confidence in the business' abilties.
 
-# Wireframes
+## How business features support business stories:
+
+Responsive design and designing with the business brand in mind both promote a professional feel to the website and increase the confidence of users visiting. Easy navigation helps to keep users engaged in the pages and increase the likelihood of more business. Key business information also contributes to the likelihood of increased business and offers users additional ways to contact and engage with the business.
+
+# Website Structure
+
+The structure of this project has been designed to support user experience by using a clear and simplistic design, incorporating responsive design across all devices and offering easy and quick navigation to help users find what they're looking for. 
+
+The key features, such as services, testimonials and book now buttons, are placed to guide users to take action and help improve business visibility. Another example of this is the placement of the contact features. For instance, by grouping together based on similarities it aids the users to find the right content they seek.
+
+## User Journey
+
+The page users are likely to first see when viewing the website is the landing page. They are greeted by a hero banner, a call-to-action button and the navigation bar. It is important to make a good first impression for users when they first visit the website, as this greatly impacts the amount of time they will spend there. 
+
+### Navbar
+Logo button and Home button - Home page
+Services button - View services and prices
+Our Team - Meet the staff
+Testimonials - Previous user experiences
+Book now button - Sends user to booking page
+
+Having all pages accessible straight away from the navigation bar increases the likelihood of users finding the content they need and remaining on the site longer. 
+
+### Hero Banner
+
+The hero banner creates an inviting feeling on the home page with a welcome message greeting the users. From there, users can explore the options by either scrolling or using the navbar to locate different sections of the website. This creates an open space for users to easily navigate to where they either need to go or where they may get drawn to go.
+
+### Call-to-action buttons
+
+To improve the chances of users making a booking, multiple book now buttons have been used throughout the website, including the navbar. This reduces friction in the booking process, by offering opportunities at most sections of the website for users to act.
+
+When at the booking page, a simple form can be filled out and submitted, leading to a confirmation page. A navbar has been included on the confirmation page, which leads users back to view any of the sections of the website if they wish.
+
+### Our team and Testimonials links
+
+The navbar has two links that help users navigate to these particular areas on the home page, while also being accessible from other pages. It creates an easy way for users to view this content with little effort.
+
+### Services link
+
+This link takes the users to the services page that contains a list of services and prices that the business provides. This is important information, that users would need before making a decision about using the business, making it a priority to keep functional and informative.
+
+### Booking page and Confirmation page
+
+Multiple buttons have been placed across all pages of the website linking to the booking page. Its contents contain a simple booking form for users to fill out and submit. It offers certain details like selecting a specific time and date, so users can book at their own convenience. Once submitted, the users are then taken to a confirmation page, so they know their appointment is confirmed, which helps build confidence between the user and business.
+
+### Contact information (footer)
+
+All vital contact and business information has been placed at the bottom of all the pages, so users have easy access across the website. I've grouped the contact details, opening times and social media links together, as they relate to each other for what the user may want to see after finding what they initially were looking for.
+
+### Website sections
+
+To help divide up the different sections, such as the home page, for example, I used different colour backgrounds to create a visual barrier between sections. 
+
+Keeping content that relates well together helps users find similar content they may have been looking for. For example, they want to look at the address to see where it is and then notice the opening times next to it, so they know when they can go.
+
+By naming a link clearly, it helps users understand exactly what page they may be going to. For example, users need to find services, by clicking on services, they get the services page, etc.
+
+# Website Skeleton
+
+## Page layout
+
+The header contains the navigation, and this is consistant across all pages. I used Bootstrap to create a clean and easy-to-use navbar. I included 2 page links, 3 section links and a book now button. By creating links for every feature, it helps users navigate to the information they want more easily, with limited effort.
+
+The main for the home page consists of a hero banner and 2 sections, the team and testimonials. Both the home and services page contain a hero banner to support a welcoming and engaging visual to the website. Having both team and testimonial sections grouped under each other and making up the majority of the home page, is to welcome and entice users to continue exploring the website. 
+
+The main for the services page, much like the booking page, is solely the intented content (except for the services page having a hero banner). This is designed to avoid distractions for the users, so they can focus specifically on that particular page or section.
+
+The footer is consistant, much like the navigation bar in providing the same content throughout all the webpages. It holds all the key contact and business information users may search for. With that in mind, a link to locate it was added to the navbar.
+
+## Interface elements
+
+I've incorporated elements of interface design to help encourage users to engage with the website. Adding multiple buttons linked to the booking page, it will increase the likelihood of successful bookings. The booking form alone is a vital part of the functionality of the website and a must for users and clients. With that, I made sure to include all required and necessary information for an easy submission and booking process. 
+
+## Navigation
+
+The navigation bar is attached to the top of the website as it's standard practice and users are used to finding it there. I also made the navbar sticky so that it's accessible no matter where the user is on the website, and they can access any page or section with ease.
+
+## Wireframes
 
 Wireframes were used in the development of this project to help plan the layout and structure of this website.
 
@@ -224,7 +331,7 @@ The testimonials feature is included to increase user confidence in the business
 ### Contact information
 ![Home page wireframe: Contact information](/module-1-planning/wireframe-screenshots/contact-us-page/contact-information.png)
 
-Offers the users the ability to reach out personally to the business for enquiries.
+Offers the users the ability to reach out personally to the business for enquiries. Grouped together with social media links to add an additional way for users to reach out to the business.
 
 ## Services page
 
@@ -238,44 +345,45 @@ Allows users to view all services the business provides, with clear service name
 
 A clear and easy-to-use form that allows users to book with the business, with a confirmation pop-up and multiple call-to-action buttons on other pages to entice the users to engage.
 
+As seen above in the Wireframe section, I have utilised this tool to create a basic visual representation of what I was aiming to design. I kept it quite simple to allow space for creative ideas to develop as I went along, while still guiding me to keep the design clean. These layouts show clear instructions of navigation to users, as well as a thought-out plan for where each section will be to insure an effective flow through the website and purposeful organisation of features.
+
+## Form
+
+The form was designed to take only important information that would be required for the booking. This creates a simple and easy to fill out form, which in turn creates a good user-experience. It provides clear labelling of each input and has a required alert, for any section that hasn't been filled out before submitting. This alert informs the users that the form hasn't been filled out properly and that their booking hasn't been submitted. This helps avoid confusion and assures the user knows what they must correct. Alternatively, when the form has been filled out correctly and submitted a confirmation page is loaded as a reassurance to the user that their appointment has been successfully submitted. This creates a good user-experience, as it helps put them at ease that it has gone through.
+
+On the form, I created a dropdown menu for each service provided by the business and a time and date selecter to allow flexibility for the users. This provides convenient options for the user to book on the day and time that's most convenient to them.
+
+## Responsiveness
+
+To achieve good responsiveness among all devices I needed the layouts to adjust based on screen sizes. For example, the elements in the footer stack vertically on screen sizes under 768px or the services sections stacking horizontally on screen sizes larger than 1200px. This creates a better flow for the pages, avoids any errors such as overlapping and maintains usability.
+
 # Website Surface
 
-## Features
+## Design Choice
 
-The features for this project were prioritised using the MOSCOW method:
-- Must-Have – Essential features required for the project to function.
-- Should-Have – Important features that improve user experience.
-- Could-Have – Optional features that add extra value.
+My design choices have been based on the users' and clients' needs. I have strategically chosen the layout to help guide the users through the webpages with a steady flow, while grabbing attention for each section. For the client's needs, I have incorporated their brand colour palette and used a font that I believe reflects their brand.
 
-This approach has helped to ensure that the most important features are completed first.
+## Colour Palette
 
-## Must-Have
-- User-friendly navigation and responsive design.
-- Quality images with descriptive alt text for accessibility.
-- Appointment bookings.
-- A services page that provides detailed descriptions for each service it offers and prices.
-- Business information.
+When deciding a colour palette, some factors had to be considered, such as whether the colours contrast enough to not affect the visually impaired, whether they work aesthetically, and whether they reflect the business's brand.
 
-## Should-Have
-- Meet the staff section with stylist profiles.
-- Customer testimonials.
+To avoid any major contrasting issues, I used the WebAIM website (https://webaim.org/resources/contrastchecker/) to ensure that the colours worked well together for accessibility. 
 
-## Could-Have
-- Photo gallery.
+### Colours
 
-# Website Structure
+Primary - #553629
 
-The structure of this project has been designed to support user experience by using a clear and simplistic design, incorporating responsive design across all devices and offering easy and quick navigation to help users find what they're looking for. 
+Secondary - #E3CDBF
 
-The key features, such as services, testimonials and book now buttons, are placed to guide users to take action and help improve business visibility. Another example of this is the placement of the contact features. For instance, by grouping together based on simularities it aids the users to find the right content they seek.
+I chose these colours because I felt they reflected the brand's professionalism and modern vibes. It was important that they passed the ratio test on the WebAIM website to ensure accessibility was achieved.
 
-As seen above in the Wireframe section, I have utilised this tool to create a basic visual representation of what I was aiming to design. I kept it quite simple to allow space for creative ideas to develop as I went along, while still guiding me to keep the design clean. These layouts show clear instructions of navigation to users, as well as a thought-out plan for where each section will be to insure a effective flow through the website and purposeful organisation of features.
+## Typography
 
-# Website Skeleton
+For the typography, I used Google Fonts' Playfair Display (https://fonts.google.com/specimen/Playfair+Display). Considering the type of business my project is, a Serif font seemed the best option for a more professional and polished look. I used a standard serif font as a secondary backup.
 
-I've incorporated elements of interface design to help encourage users to engage with the website. Adding multiple buttons linked to the booking page, it will increase the likelihood of successful bookings. The booking form alone is a vital part of the functionality of the website and a must for users and clients. With that, I made sure to include all required and necessary information for an easy submission and booking process. 
+## Images
 
-With the navigation, I used Bootstrap to create a clean and easy-to-use navbar. I included 2 page links, 3 section links and a book now button. By creating links for every feature, it helps users navigate to the information they want more easily, with limited effort.
+All the images used in the project were generated by AI and were specifically selected to work with the colour palette and professional feel of the website. I ensured they were good quality throughout all device sizes, to maintain the image of the business. High-quality images help build trust and entice users to continue viewing content.
 
 # Technologies used
 
@@ -308,51 +416,6 @@ Lighthouse has been used near the end of my project to see what needs to be chan
 ## GitHub Pages
 
 This project is accessible through GitHub Pages. By deploying through this, I can see issues that wouldn't be known through the preview options on the IDE used. This also allows others to view my project on a browser without having to copy the code and run it manually.
-
-## Path through Website
-
-The page users are likely to first see when viewing the website is the landing page. They are greeted by a hero banner, a call-to-action button and the navigation bar. It is important to make a good first impression for users when they first visit the website, as this greatly impacts the amount of time they will spend there. 
-
-### Navbar
-Logo button and Home button - Home page
-Services button - View services and prices
-Our Team - Meet the staff
-Testimonials - Previous user experiences
-Book now button - Sends user to booking page
-
-Having all pages accessible straight away from the navigation bar increases the likelihood of users finding the content they need and remaining on the site longer. 
-
-### Hero Banner
-
-The hero banner creates an inviting feeling on the home page with a welcome message greeting the users. From there, users can explore the options by either scrolling or using the navbar to locate different sections of the website.
-
-### Call-to-action buttons
-
-To improve the chances of users making a booking, multiple book now buttons have been used throughout the website, including the navbar. When at the booking page, a simple form can be filled out and submitted, leading to a confirmation page. A navbar has been included on the confirmation page, which leads users back to view any of the sections of the website if they wish.
-
-### Our team and Testimonials links
-
-The navbar has two links that help users navigate to these particular areas on the home page, while also being accessible from other pages. It creates an easy way for users to view this content with little effort.
-
-### Services link
-
-This link takes the users to the services page that contains a list of services and prices that the business provides. This is important information that users would need before making a decision about using the business.
-
-### Booking page and Confirmation page
-
-Multiple buttons have been placed across all pages of the website linking to the booking page. Its contents contain a simple booking form for users to fill out and submit. It offers certain details like selecting a specific time and date, so users can book at their own convenience. Once submitted, the users are then taken to a confirmation page, so they know their appointment is confirmed, which helps build confidence between the user and business.
-
-### Contact information (footer)
-
-All vital contact and business information has been placed at the bottom of all the pages, so users have easy access across the website. I've grouped the contact details, opening times and social media links together, as they relate to each other for what the user may want to see after finding what they initially were looking for.
-
-### Website sections
-
-To help divide up the different sections, such as the home page, for example, I used different colour backgrounds to create a visual barrier between sections. 
-
-Keeping content that relates well together helps users find similar content they may have been looking for. For example, they want to look at the address to see where it is and then notice the opening times next to it, so they know when they can go.
-
-By naming a link clearly, it helps users understand exactly what page they may be going to. For example, users need to find services, by clicking on services, they get the services page, etc.
 
 ## Testing User Stories
 
@@ -411,7 +474,11 @@ Using other methods of communication, such as social media, helps keep users eng
 W3C HTML validator - passed  
 W3C CSS validator - passed  
 DevTools Lighthouse - passed  
-Github Pages - passed/failed   
+Github Pages - passed   
+
+## Testing evaluation
+
+Overall, my testing proved that my website meets accessibility, best practices and performance standards, with only a few minor issues that don't greatly effect its abilities.
 
 # Deployment
 ## How to run this project locally
@@ -442,8 +509,8 @@ Multiple bugs and issues were discovered during the process of creating this pro
 - Struggled with alignment in general (footer, services section, etc. wouldn't align horizontally on larger screen sizes). Fixed HTML code, which was missing divs that allowed control of all elements in a section. (Fixed myself)
 - Performance issues, image file type. (resolved by changing the image file from JPEG to WebP)(Discovered issue when using Lighthouse. Lighthouse told me this issue and I used: https://www.freeconvert.com/image-converter)
 - Accessibility, I forgot to add the alt property to some images. (resolved by adding the alt properties myself)
-- DS.Store file loading with commits (searched online to find a solution to this issue https://www.youtube.com/watch?v=mtlmFyZuTrw)
-- Sticky Navbar was covering headers of sections, fixed by adding scroll-margin-top to the affected sections 
+- DS.Store file loading with commits (searched online to find a solution to this issue https://www.youtube.com/watch?v=mtlmFyZuTrw) This fix wasn't permanent so I tried (https://protagonista89.medium.com/how-to-add-gitignore-file-and-remove-ds-store-from-xcode-project-with-command-line-05ebfae9afcd)
+- Sticky Navbar was covering headers of sections, fixed by adding scroll-margin-top to the affected sections (Asked ChatGPT to help solve the issue)
 
 ### Not Fixed
 
@@ -542,7 +609,9 @@ Multiple bugs and issues were discovered during the process of creating this pro
 #### Confirmation page
 ![Confirmation page](/module-1-planning/final-website-screenshots-large-screens/confirmation-page.png)
 
-## Further improvements I could make
+## Further improvements that could be made
+
+This section is about what I could do to improve the website with extra time and knowledge. The improvements listed below would enhance user returns, help retain current users and offer a quick payment option for booked appointments. These improvements would help align this project, with a more modern standard for this business.
 
 - Customer login accounts
 - Loyalty rewards programme
@@ -551,10 +620,12 @@ Multiple bugs and issues were discovered during the process of creating this pro
 # Credits
 
 ## Content 
-- Some Text predictions, from VS Code
+- Some Text predictions, from VSCode
+- Services text content, from ChatGPT
 
 ## Media 
-- ChatGPT, image generation
+- Image generation, from ChatGPT
+- Favicon, from ChatGPT
 
 ## Code
-- Bootstrap, navbar creation
+- Navbar creation, from Bootstrap

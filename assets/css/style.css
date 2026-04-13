@@ -5,7 +5,6 @@
 
 /*Color Palette*/
 /* Primary - #553629
-Secondary - #642E17
 Hightlight - #E3CDBF */
 
 html,
@@ -739,11 +738,3 @@ form input,
         font-size: 2rem;
     }
 }
-
-
-/* Notes / to-do */
-
-/* 1. Generate more favicons in white (16x16 & 32x32) */
-/* 2. Re-evaluate the layout of Services page to improve the aesthetics */
-/* 3. Reconsider the colour scheme */
-/* 4. Add a map to footer */
