@@ -437,17 +437,19 @@ Multiple bugs and issues were discovered during the process of creating this pro
 
 ### Fixed
 
-- Making the hero banner visible on GitHub Pages (resolved by correcting the file path in the CSS file)
-- Struggled with making the services selector a required section for the booking page (resolved by correcting the HTML code. I tested which section of the code needed the required element to work) 
-- Struggled with alignment in general (footer, services section, etc. wouldn't align horizontally on larger screen sizes). Fixed HTML code, which was missing divs that allowed control of all elements in a section.
-- Performance issues, image file type. (resolved by changing the image file from JPEG to WebP)
-- Accessibility, I forgot to add the alt property to some images. (resolved by adding the alt properties)
-- DS.Store file loading with commits (searched online to find a solution to this issue)
+- Making the hero banner visible on GitHub Pages (resolved by correcting the file path in the CSS file.) Reddit page where I found fix: (https://www.reddit.com/r/webdev/comments/sczd8v/background_image_not_showing_on_github_pages_for/)
+- Struggled with making the services selector a required section for the booking page (resolved by correcting the HTML code. Stackoverflow page where I found where to put required: (https://stackoverflow.com/questions/55830701/required-attribute-for-a-dropdown-does-not-work))
+- Struggled with alignment in general (footer, services section, etc. wouldn't align horizontally on larger screen sizes). Fixed HTML code, which was missing divs that allowed control of all elements in a section. (Fixed myself)
+- Performance issues, image file type. (resolved by changing the image file from JPEG to WebP)(Discovered issue when using Lighthouse. Lighthouse told me this issue and I used: https://www.freeconvert.com/image-converter)
+- Accessibility, I forgot to add the alt property to some images. (resolved by adding the alt properties myself)
+- DS.Store file loading with commits (searched online to find a solution to this issue https://www.youtube.com/watch?v=mtlmFyZuTrw)
+- Sticky Navbar was covering headers of sections, fixed by adding scroll-margin-top to the affected sections 
 
 ### Not Fixed
 
 - Change the colour of the active button in the nav bar.
 - Centring the date and time inputs for the booking page.
+- Make navbar auto collapse after use
 
 # Project Evaluation
 

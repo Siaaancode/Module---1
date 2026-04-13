@@ -67,14 +67,19 @@ main {
 
 /*Main*/
 .hero {
-    background: url(/assets/images/hero_banner.webp) no-repeat center center/cover;
+    background: url(../images/hero_banner.webp) no-repeat center center/cover;
     position: relative;
     width: 100%;
     min-height: 300px;
     display: flex;
     justify-content: flex-start;
     color: #E3CDBF;
-    margin-top: 80px; /* Stops the hero banner from being overlapped by navbar */
+    margin-top: 80px;
+    /* Stops the hero banner from being overlapped by navbar */
+}
+
+.hero-text {
+    margin-top: 10px;
 }
 
 .hero-text h1 {
@@ -115,6 +120,7 @@ main {
     padding: 40px 40px;
     background-color: #E3CDBF;
     color: #553629;
+    scroll-margin-top: 80px;
 }
 
 #team-section p {
@@ -169,6 +175,7 @@ main {
     padding: 40px 40px;
     background-color: #553629;
     color: white;
+    scroll-margin-top: 80px;
 }
 
 #testimonials-section h2 {
@@ -239,10 +246,17 @@ main {
     padding: 20px;
 }
 
+#haircuts,
+#hair-treatments,
+#hair-colouring {
+    scroll-margin-top: 120px;
+}
+
 .services-section {
     border: 2px solid #553629;
     border-radius: 10px;
     margin: 0 20px 20px;
+    scroll-margin-top: 50px;
 }
 
 .services-section h3 {
@@ -393,6 +407,7 @@ footer {
 #form-section {
     background-color: #553629;
     color: #E3CDBF;
+    margin-top: 80px;
 }
 
 #form-section h1,
@@ -401,7 +416,7 @@ footer {
 }
 
 #form-section h1 {
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 form {
@@ -417,7 +432,6 @@ form h2 {
     margin: 5px;
     padding-bottom: 0px;
     font-size: 1rem;
-
 }
 
 form input,
@@ -654,10 +668,14 @@ form input,
         font-size: 2rem;
         padding: 15px 30px;
         width: 600px;
-        margin: 150px 0 0 40px;
+        margin: 50px 0 0 40px;
     }
 
     /*Team section*/
+    #team-section {
+        scroll-margin-top: 140px;
+    }
+
     #team-section h2 {
         font-size: 3rem;
     }
@@ -673,6 +691,10 @@ form input,
     }
 
     /*Reviews*/
+    #testimonials-section {
+        scroll-margin-top: 140px;
+    }
+
     #testimonials-section h2 {
         font-size: 3rem;
     }
@@ -686,6 +708,12 @@ form input,
 
     .services-section {
         width: 50%;
+    }
+
+    #haircuts,
+    #hair-treatments,
+    #hair-colouring {
+        scroll-margin-top: 160px;
     }
 
     .services-header h2 {
@@ -704,6 +732,7 @@ form input,
     /*Booking page*/
     #form-section h1 {
         font-size: 5rem;
+        padding-top: 100px;
     }
 
     #form-section p {
@@ -718,4 +747,3 @@ form input,
 /* 2. Re-evaluate the layout of Services page to improve the aesthetics */
 /* 3. Reconsider the colour scheme */
 /* 4. Add a map to footer */
-/* 6. Header sticks to top of page when scrolling */
