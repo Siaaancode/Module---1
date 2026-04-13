@@ -306,11 +306,17 @@ main {
 #confirmation {
     background-color: #553629;
     color: #E3CDBF;
-    min-height: 200px;
+    min-height: 250px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    scroll-margin-top: 50px;
+}
+
+#confirmation h1 {
+    text-align: center;
+    margin-top: 100px;
 }
 
 /*Footer*/
