@@ -2,6 +2,8 @@
 
 This project is my final submission for the Module 1 unit of my Web Development course at South Staffordshire College.
 
+![Home Page](/module-1-planning/readme_file_home-page/home-page_readme_file.png)
+
 ## Table of Contents
 1. [Project information](#project-description)
 2. [Strategy](#website-strategy)
