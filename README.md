@@ -357,6 +357,8 @@ The form was designed to take only important information that would be required 
 
 On the form, I created a dropdown menu for each service provided by the business and a time and date selecter to allow flexibility for the users. This provides convenient options for the user to book on the day and time that's most convenient to them.
 
+Since making the confirmation page, I have intigrated the use of Formspree in my project. This creates a better user experience by sending an email confirmation to the users about their appointment. Unfortunatley, I could not redirect my booking form to my own confirmation page through this. But have decided to keep it regardless, as it's still an improvement on the user experience. Both my own and their confirmation pages are available to view on this readme file for reference.
+
 ## Responsiveness
 
 To achieve good responsiveness among all devices I needed the layouts to adjust based on screen sizes. For example, the elements in the footer stack vertically on screen sizes under 768px or the services sections stacking horizontally on screen sizes larger than 1200px. This creates a better flow for the pages, avoids any errors such as overlapping and maintains usability.
@@ -601,6 +603,9 @@ Multiple bugs and issues were discovered during the process of creating this pro
 #### Confirmation page
 ![Confirmation page](/module-1-planning/final-website-screenshots-small-screens/confirmation-page.png)
 
+#### Formspree page
+![Confirmation page](/module-1-planning/final-website-screenshots-small-screens/formspree-small_screens.png)
+
 ### Tablets and larger (768px and up)
 
 #### Home page (navbar and hero banner)
@@ -630,6 +635,9 @@ Multiple bugs and issues were discovered during the process of creating this pro
 #### Confirmation page
 ![Confirmation page](/module-1-planning/final-website-screenshots-medium-screens/confirmation-page.png)
 
+#### Confirmation page
+![Confirmation page](/module-1-planning/final-website-screenshots-medium-screens/formspree-medium_screens.png)
+
 ### Laptops and larger (992px and up)
 
 #### Home page (navbar and hero banner)
@@ -649,6 +657,9 @@ Multiple bugs and issues were discovered during the process of creating this pro
 
 #### Confirmation page
 ![Confirmation page](/module-1-planning/final-website-screenshots-large-screens/confirmation-page.png)
+
+#### Confirmation page
+![Confirmation page](/module-1-planning/final-website-screenshots-large-screens/formspree-large_screens.png)
 
 ### Desktop and larger (1200px and up)
 
@@ -672,6 +683,9 @@ Multiple bugs and issues were discovered during the process of creating this pro
 
 #### Confirmation page
 ![Confirmation page](/module-1-planning/final-website-screenshots-xlarge-screens/confirmation-page.png)
+
+#### Confirmation page
+![Confirmation page](/module-1-planning/final-website-screenshots-xlarge-screens/formspree-xlarge_screens.png)
 
 #### Footer section
 ![Footer section](/module-1-planning/final-website-screenshots-xlarge-screens/footer-section.png)
