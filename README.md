@@ -2,6 +2,8 @@
 
 This project is my final submission for the Module 1 unit of my Web Development course at South Staffordshire College.
 
+Link to deployed site (https://siaaancode.github.io/Module---1/)
+
 ![Home Page](/module-1-planning/readme_file_home-page/home-page_readme_file.png)
 
 ## Table of Contents
@@ -688,6 +690,7 @@ This section is about what I could do to improve the website with extra time and
 - Some Text predictions, from VSCode
 - Services text content, from ChatGPT
 - Font, from GoogleFonts [Googlefonts](https://fonts.google.com/specimen/Playfair+Display?preview.layout=grid)
+- Formspree (https://formspree.io/)
 
 ## Media 
 - Image generation, from ChatGPT

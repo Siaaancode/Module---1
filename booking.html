@@ -57,14 +57,15 @@
     <main id="form-section">
         <h1>Book with us today</h1>
         <p>Fill out our form to book your appointment with us</p>
-        <form action="confirmation.html" method="get">
+        <!--Formspree-->
+        <form action=https://formspree.io/f/xeevokoy method="post">
             <div class="form-group">
                 <label for="name">Name:</label>
                 <input id="name" type="text" name="name" required>
             </div>
             <div class="form-group">
                 <label for="phone">Phone Number:</label>
-                <input id="phone" type="number" name="phone" required>
+                <input id="phone" type="tel" name="phone" required>
             </div>
             <div class="form-group">
                 <label for="email">Email:</label>
@@ -108,7 +109,6 @@
                 <label for="form-btn"></label>
                 <input id="form-btn" type="submit">
             </div>
-
         </form>
     </main>
 
