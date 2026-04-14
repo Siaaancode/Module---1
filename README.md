@@ -690,11 +690,10 @@ This section is about what I could do to improve the website with extra time and
 ## Media 
 - Image generation, from ChatGPT
 - Favicon, from ChatGPT
-- Social icons, from FontAwesome 
-
-[Facebook](https://fontawesome.com/icons/facebook?f=brands&s=solid)
-[Instagram](https://fontawesome.com/icons/square-instagram?f=brands&s=solid)
+- Social icons, from FontAwesome [Facebook,](https://fontawesome.com/icons/facebook?f=brands&s=solid)
+[Instagram,](https://fontawesome.com/icons/square-instagram?f=brands&s=solid)
 [X (Twitter)](https://fontawesome.com/icons/square-x-twitter?f=brands&s=solid)
+- Image editor, used on the staff images (https://www.freeconvert.com/image-converter)
 
 ## Code
-- Navbar creation, from Bootstrap
+- Navbar, from Bootstrap (https://getbootstrap.com/docs/5.3/components/navbar/)
