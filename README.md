@@ -13,7 +13,7 @@ This project is my final submission for the Module 1 unit of my Web Development 
 8. [Testing](#testing)
 9. [Deployment](#deployment)
 
-## Project Description
+# Project Description
 
 The aim for this project was to create a fully responsive hair salon website, which provides users with business information, promote services and allow users to book appointments easily.
 
@@ -347,7 +347,7 @@ A clear and easy-to-use form that allows users to book with the business, with a
 
 As seen above in the Wireframe section, I have utilised this tool to create a basic visual representation of what I was aiming to design. I kept it quite simple to allow space for creative ideas to develop as I went along, while still guiding me to keep the design clean. These layouts show clear instructions of navigation to users, as well as a thought-out plan for where each section will be to insure an effective flow through the website and purposeful organisation of features.
 
-## Form
+### Form
 
 The form was designed to take only important information that would be required for the booking. This creates a simple and easy to fill out form, which in turn creates a good user-experience. It provides clear labelling of each input and has a required alert, for any section that hasn't been filled out before submitting. This alert informs the users that the form hasn't been filled out properly and that their booking hasn't been submitted. This helps avoid confusion and assures the user knows what they must correct. Alternatively, when the form has been filled out correctly and submitted a confirmation page is loaded as a reassurance to the user that their appointment has been successfully submitted. This creates a good user-experience, as it helps put them at ease that it has gone through.
 
@@ -421,19 +421,31 @@ This project is accessible through GitHub Pages. By deploying through this, I ca
 
 1. “As a customer who’s visually impaired, strong descriptions with images on a webpage and good colour contract is important.”
 
-When trying to make the website as accessible as possible, I considered a few factors, including colour palette, fonts and alt attributes. The colours used contrast each other well, the font is clear and professionally represents the brand. The alt attributes make images readable for screen readers. By adding these, I've created a space that is accessible for visually impaired users.
+When trying to make the website as accessible as possible, I considered a few factors, including colour palette, fonts and alt attributes. The colours used contrast each other well and pass the WebAIM contrast checker. The font is clear and professionally represents the brand. The alt attributes make images readable for screen readers. By adding these, I've created a space that is accessible for visually impaired users.
 
 2. “As a customer, I would like to book my appointment online, so I can schedule at a convenient time without needing to call.”
 
 For this user story, I created a specific page just for the booking of appointments. It contains a simple form that requires basic information inputs from the users. The buttons guide users, which helps speed up the progress if they choose to book online. Having them in multiple locations adds consistency, ease and speed to accessing the page.
 
+As seen in the image below, I've included basic information inputs and specific inputs for time and date for user convenience.
+
+![Booking form](/module-1-planning/final-website-screenshots-xlarge-screens/booking-page.png)
+
 3. “As a customer, I want to view the salon’s services and prices, so that I know what treatments are available, what they entail and how much they cost before booking.”
 
 The service page was created for this particular need, and it's a standard requirement of information for websites in this business. Creating a simple, easy-to-read list of services with descriptions and prices was key to achieving this user's story.
 
+The image below shows names, descriptions and prices for every service provided. This helps give users more confidence in what service they are getting and creates transparency with the pricing.
+
+![Services prices](/module-1-planning/final-website-screenshots-xlarge-screens/services-page-services.png)
+
 4. “As a customer, I want to see the location and opening times so I know when I can go and how to get there.”
 
 Grouping all business information from phone numbers to location was important, so users can see all the important contact details they need in one place. Having a link in the navigation that directs them directly there helps the users find what they need more quickly and easily.
+
+The image below showcases all required information a user may need about the business. Including physical business information, such as address, opening times, phone number and email, with additional indirect contact information such as the social media links. Having these grouped together help for a better user experience. For example, a user looking for an address would likely be looking for the opening times or a user looking to contact the business by phone may rather contact through social media instead.
+
+![Footer contact and business information](/module-1-planning/final-website-screenshots-xlarge-screens/footer-section.png)
 
 5. “As a customer, seeing the work of the staff helps me to understand what they are capable of, and can comfortably do, giving me confidence in their abilities.”
 
@@ -443,15 +455,27 @@ This user story was considered a could-have and, unfortunately, did not make it 
 
 This was achieved by creating the testimonials section. By providing a few good reviews with users' names and a brief description of their experience, it has promoted a level of trust between new / current users and the team.
 
+Putting a name to a review adds a level of trust between the user and business, as it create a connection between who was there and who's going. Having this section is important to help build confidence.
+
+![Reviews section](/module-1-planning/final-website-screenshots-xlarge-screens/reviews-section.png)
+
 7. “As a customer, I would like to view the staff and see what their specialities are, to help me feel more comfortable choosing a service and what I can expect from them.”
 
 By presenting the team in their own section, it allows users to see the speciality skill sets of the staff and create confidence in the business and services that it can provide. Having the names, skills and photo of the staff allows users to understand who they might be booking their appointment with and what they can expect from their service.
+
+![Staff section](/module-1-planning/final-website-screenshots-xlarge-screens/our-team-section.png)
 
 ## Testing Business Stories
 
 1. “I'd like my website to have easy navigation, and a customer-friendly design is important for users to find the right information fast and effortlessly on all devices.”
 
 I achieved this goal by keeping the navigation bar simple with a link for each major section. The design of the nav bar creates a super simple way for users to navigate through the website with ease and limited thought.
+
+Below are 2 examples of the navigation bar for both smaller and larger screens. The smaller screen requires a drop down menu to reduce the risk of a cramped navbar and the larger screen has space for all the elements of the navbar. All the links within the navbar guides users to all pages of the website for easy and quick navigation.
+
+![Navigation bar, smaller screens](/module-1-planning/final-website-screenshots-small-screens/navbar-dropdown.png) 
+
+![Navigation bar, larger screens](/module-1-planning/final-website-screenshots-large-screens/home-page-start.png)
 
 2. "I'd like my customers to be able to book online easily, with a booking page that has a simple form for them to fill out. This will help increase the number of customer bookings."
 
@@ -467,13 +491,26 @@ The business contact details and information were a key feature to include. It p
 
 5. "My website needs to include social media links that direct my customers to the business's social media, so they can explore more of what we do and stay engaged with the business."
 
-Using other methods of communication, such as social media, helps keep users engaged with the business and offers additional ways for them to interact and view the business. Having these external platforms, it creates additional ways to promote the business and bring in more potential users. 
+Using other methods of communication, such as social media, helps keep users engaged with the business and offers additional ways for them to interact and view the business. Having these external platforms, it creates additional ways to promote the business and bring in more potential users.
+
+![Contact information, Social media links](/module-1-planning/final-website-screenshots-xlarge-screens/footer-section.png)
 
 ## Final checks 
 
-W3C HTML validator - passed  
-W3C CSS validator - passed  
-DevTools Lighthouse - passed  
+W3C HTML validator - passed 
+![Home Page](/module-1-planning/validators/home-page_W3_HTML.png)
+![Services Page](/module-1-planning/validators/services-page_W3_HTML.png) 
+![Booking Page](/module-1-planning/validators/booking-page_W3_HTML.png) 
+![Confirmation Page](/module-1-planning/validators/confirmation-page_W3_HTML.png) 
+
+W3C CSS validator - passed
+![CSS](/module-1-planning/validators/style_W3_CSS.png)
+
+DevTools Lighthouse - passed
+![Home Page](/module-1-planning/validators/home-page_lighthouse.png)
+![Services Page](/module-1-planning/validators/service-page_lighthouse.png)
+![Booking Page](/module-1-planning/validators/booking-page_lighthouse.png)
+![Confirmation Page](/module-1-planning/validators/confirmation-page_lighthouse.png) 
 Github Pages - passed   
 
 ## Testing evaluation
@@ -496,7 +533,7 @@ Overall, my testing proved that my website meets accessibility, best practices a
 - Commit your project with commands through the terminal and push them.
 - Go back to GitHub and click the settings button, then the pages option.
 - Ensure the Source is set to 'Deploy from a branch' and Branch is set to 'main' and '/(root)'
-- Once completed, a link at the top of that page will become available. Simply click it, and it will open a new tab of the deployed site. 
+- Once completed, a link at the top of that page will become available. Simply click it, and it will open a new tab of the deployed site. (https://siaaancode.github.io/Module---1/)
 
 ## Bugs Discovered
 
@@ -609,6 +646,32 @@ Multiple bugs and issues were discovered during the process of creating this pro
 #### Confirmation page
 ![Confirmation page](/module-1-planning/final-website-screenshots-large-screens/confirmation-page.png)
 
+### Desktop and larger (1200px and up)
+
+#### Home page (navbar and hero banner)
+![Home page](/module-1-planning/final-website-screenshots-xlarge-screens/home-page.png)
+
+#### Team section
+![Team section](/module-1-planning/final-website-screenshots-xlarge-screens/our-team-section.png)
+
+#### Reviews section
+![Reviews section](/module-1-planning/final-website-screenshots-xlarge-screens/reviews-section.png)
+
+#### Services section
+![Services section](/module-1-planning/final-website-screenshots-xlarge-screens/services-page.png)
+
+#### Services section Services
+![Services section services](/module-1-planning/final-website-screenshots-xlarge-screens/services-page-services.png)
+
+#### Booking page
+![Booking page](/module-1-planning/final-website-screenshots-xlarge-screens/booking-page.png)
+
+#### Confirmation page
+![Confirmation page](/module-1-planning/final-website-screenshots-xlarge-screens/confirmation-page.png)
+
+#### Footer section
+![Footer section](/module-1-planning/final-website-screenshots-xlarge-screens/footer-section.png)
+
 ## Further improvements that could be made
 
 This section is about what I could do to improve the website with extra time and knowledge. The improvements listed below would enhance user returns, help retain current users and offer a quick payment option for booked appointments. These improvements would help align this project, with a more modern standard for this business.
@@ -622,10 +685,16 @@ This section is about what I could do to improve the website with extra time and
 ## Content 
 - Some Text predictions, from VSCode
 - Services text content, from ChatGPT
+- Font, from GoogleFonts [Googlefonts](https://fonts.google.com/specimen/Playfair+Display?preview.layout=grid)
 
 ## Media 
 - Image generation, from ChatGPT
 - Favicon, from ChatGPT
+- Social icons, from FontAwesome 
+
+[Facebook](https://fontawesome.com/icons/facebook?f=brands&s=solid)
+[Instagram](https://fontawesome.com/icons/square-instagram?f=brands&s=solid)
+[X (Twitter)](https://fontawesome.com/icons/square-x-twitter?f=brands&s=solid)
 
 ## Code
 - Navbar creation, from Bootstrap
